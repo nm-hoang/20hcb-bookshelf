@@ -1,11 +1,14 @@
 .bg-light {
-  background-color: #f5f5f5 !important;
+	background-color: #f5f5f5 !important;
 }
 
 .bg-white {
-  background-color: #fff;
+	background-color: $white;
 }
 
 .text-success {
-  color: $green-6;
+	color: $green-6;
+}
+.text-blue-4 {
+	color: $blue-4 !important;
 }

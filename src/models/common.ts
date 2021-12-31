@@ -1,3 +1,17 @@
+export enum PageUrl {
+  LOGIN = '/login',
+  REGISTER = '/register',
+  FORGOTPASSWORD = '/forgotpassword',
+  HOMEPAGE = '/',
+  CART = '/cart',
+  CHECKOUT = '/checkout',
+  CHECKOUT_SUCCESS = '/checkout-success',
+  BOOK = '/book',
+  PUBLISHERS = '/publishers',
+  AUTHORS = '/authors'
+};
+
+
 export interface MessageStatus {
   status: 'Success' | 'Error';
   message?: string;
@@ -25,7 +39,6 @@ export interface ListParams {
 export interface State<T> {
   requesting: boolean;
   success: boolean;
-  status?: 'idle' | 'pending' | 'success' | 'error';
   message?: string;
   error?: string | any;
   data?: number | string;
