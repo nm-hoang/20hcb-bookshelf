@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { PageUrl } from '../../models';
 import { ShoppingCartOutlined, ShopTwoTone } from '@ant-design/icons';
 
-const { Title, Text } = Typography;
+const { Title } = Typography;
 
 function HeaderComponent(): JSX.Element {
 	enum HeaderType {
@@ -20,7 +20,7 @@ function HeaderComponent(): JSX.Element {
 		<Row className="header__admin" align="middle" justify="space-between">
 			<Col>
 				<Row justify="end">
-					<Link to="/admin">
+					<Link to={PageUrl.HOMEPAGE}>
 						<Space direction="vertical" className="header__contain-logo">
 							<Title className="header__logo" level={1}>
 								<ShopTwoTone twoToneColor="#c2d9ec" /> BOOKSTORE
@@ -50,7 +50,7 @@ function HeaderComponent(): JSX.Element {
 								</Title>
 							</Button>
 						</Link>
-						<Link to={HeaderType.AUTHORS}>
+						<Link to={PageUrl.AUTHORS}>
 							<Button
 								key={HeaderType.AUTHORS}
 								type="text"

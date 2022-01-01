@@ -4,12 +4,16 @@ import { PrivateRoute } from './components/common/PrivateRoute';
 import { ClientRoute } from './components/common/ClientRoute';
 // import ListTodo from './features/todo/pages/ListTodo';
 import Homepage from './features/home/pages';
+import BookDetails from './features/book/pages/BookDetails';
 
 function App() {
 	return (
 		<>
 			<BrowserRouter>
 				<Switch>
+          <ClientRoute path="/book/:bookid">
+						<BookDetails />
+					</ClientRoute>
 					<ClientRoute path="/">
 						<Homepage />
 					</ClientRoute>
