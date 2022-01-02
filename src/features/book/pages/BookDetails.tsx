@@ -10,6 +10,7 @@ import { selectListComments, getBookById, selectSingleBook } from '../bookSlice'
 import ModalPreview from '../components/ModalPreview';
 import Money from '../../../components/common/Money';
 import { addToCart } from '../../cart/cartSlice';
+import { moneyAfterDiscount } from '../../../helpers/money';
 
 const { Title, Text } = Typography;
 
@@ -34,6 +35,7 @@ function BookDetails(): JSX.Element {
 		const item: CartItem = {
 			quantity: quantityItemSelect,
 			bookid: bookItem?.bookid!,
+      avatar: bookItem?.avatar!,
 			name: bookItem?.name!,
 			price: bookItem?.price!,
 			discount: bookItem?.discount!,
@@ -67,9 +69,7 @@ function BookDetails(): JSX.Element {
 						<Space direction="vertical">
 							<Space direction="horizontal" size={20}>
 								<Title level={1} className="text-blue-6 mb-0">
-									<Money
-										money={bookItem?.price! - (bookItem?.price! * bookItem?.discount!) / 100}
-									/>
+									<Money money={moneyAfterDiscount(bookItem?.price!, bookItem?.discount!)} />
 								</Title>
 								<Space>
 									<Title level={3} type="secondary" delete className="mb-0">

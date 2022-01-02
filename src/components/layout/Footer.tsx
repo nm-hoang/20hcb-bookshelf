@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Layout, Row, Typography, Space } from 'antd';
-import { Link } from 'react-router-dom';
 
 const { Text, Title } = Typography;
 
@@ -8,7 +7,7 @@ function FooterComponent(): JSX.Element {
 	return (
 		<>
 			<Layout.Footer>
-				<Row justify="space-between" style={{ height: '12rem' }}>
+				<Row justify="space-between" style={{ minHeight: '12rem' }}>
 					<Col className="d-flex justify-space-between flex-column">
 						<Title level={2} italic className="text-blue-4">
 							Bookstore

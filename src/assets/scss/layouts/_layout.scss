@@ -1,6 +1,9 @@
 .d-flex {
 	display: flex !important;
 }
+.flex-1 {
+	flex: 1 !important;
+}
 .flex-column {
 	flex-direction: column !important;
 }
@@ -8,7 +11,23 @@
 	flex-direction: row !important;
 }
 .justify-space-between {
-  justify-content: space-between !important;
+	justify-content: space-between !important;
+}
+.justify-flex-end {
+	justify-content: flex-end !important;
+}
+.justify-center {
+	justify-content: center !important;
+}
+.align-center,
+.align-items-center {
+	align-items: center !important;
+}
+.align-items-flex-start {
+	align-items: flex-start !important;
+}
+.align-flex-end {
+	align-items: flex-end !important;
 }
 .header {
 	&__logo {

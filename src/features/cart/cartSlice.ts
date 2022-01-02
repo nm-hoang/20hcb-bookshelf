@@ -2,7 +2,7 @@ import {
   // AnyAction,
   createSlice,
   PayloadAction,
-  createAsyncThunk
+  // createAsyncThunk
 } from '@reduxjs/toolkit';
 import {
   State,
@@ -21,13 +21,6 @@ const initialState: CartState = {
   list: CartData
 };
 
-export const add = createAsyncThunk(
-  'article/getListByArticleParentId',
-  async (params: number) => {
-    return params;
-  }
-);
-
 const cartSlice = createSlice({
   name: 'cart',
   initialState,
@@ -43,22 +36,51 @@ const cartSlice = createSlice({
       Notify.success('', 'Add to cart successfully !');
     },
     removeItem(state, action: PayloadAction<number>) {
-      state.list = state.list!.splice(state.list!.findIndex((list) => list.bookid === action.payload), 1);
+      state.list = state.list!.filter((list) => list.bookid !== action.payload);
       Notify.success('', 'Remove item successfully !');
     },
     removeAll(state) {
-      state.list = state.list!.splice(0, state.list!.length);
+      state.list = [];
       Notify.success('', 'Remove all items in cart successfully !');
     },
+    increaseItem(state, action: PayloadAction<number>) {
+      const index = state.list!.findIndex(list => list.bookid === action.payload)!;
+      if (state.list![index].quantity! < 100)
+        state.list![index].quantity = state.list![index].quantity! + 1;
+    },
+    decreaseItem(state, action: PayloadAction<number>) {
+      const index = state.list!.findIndex(list => list.bookid === action.payload)!;
+      if (state.list![index].quantity! > 1)
+        state.list![index].quantity = state.list![index].quantity! - 1;
+    },
+    setSelectedItem(state, action: PayloadAction<number>) {
+      const index = state.list!.findIndex(list => list.bookid === action.payload)!;
+      state.list![index].checked! = !state.list![index].checked!;
+    },
+    setCheckedAll(state) {
+      for (let i = 0; i < state.list!.length; i++) {
+        state.list![i].checked! = true;
+      }
+    },
+    setUnCheckedAll(state) {
+      for (let i = 0; i < state.list!.length; i++) {
+        state.list![i].checked! = false;
+      }
+    }
   },
   extraReducers: ((builder) => {
 
   }),
 });
 
-export const { addToCart } = cartSlice.actions;
+export const {
+  addToCart, removeItem,
+  removeAll, setSelectedItem,
+  increaseItem, decreaseItem,
+  setCheckedAll, setUnCheckedAll
+} = cartSlice.actions;
 
-export const selectCart = (state: RootState) => state.cart.single;
+export const selectCart = (state: RootState) => state.cart.list;
 
 const cartReducer = cartSlice.reducer;
 export default cartReducer;
