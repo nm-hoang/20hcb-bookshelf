@@ -1,11 +1,10 @@
 import axiosClient from './axiosClient';
 import {
   Todo,
-  // ListParams,
   ListResponse,
   SingleResponse,
   ResponseBody
-} from '../models';
+} from './models';
 
 const todoUrl = 'todos';
 

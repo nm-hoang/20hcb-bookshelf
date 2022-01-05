@@ -1,30 +1,30 @@
 export interface Order {
   name?: string;
   email?: string;
-  phonenumber?: string;
+  phoneNumber?: string;
   province?: Province;
   district?: District;
-  Ward?: Ward;
+  ward?: Ward;
   address?: string;
-  paymentmethod: PaymentMethod;
+  paymentMethod: PaymentMethod;
 }
 
 export interface Province {
-  provinceid: number;
-  provincename: string;
+  provinceId: number;
+  provinceName: string;
 }
 export interface District {
-  districtid: number;
-  provinceid: number;
-  districtname: string;
+  districtId: number;
+  provinceId: number;
+  districtName: string;
 }
 export interface Ward {
-  wardid: number;
-  districtid: number;
-  wardname: string;
+  wardId: number;
+  districtId: number;
+  wardName: string;
 }
 export enum PaymentMethod {
   COD = 'cod',
   MOMO = 'momo',
-  VISACARD = 'visacard'
+  VISA_CARD = 'visa-card'
 }

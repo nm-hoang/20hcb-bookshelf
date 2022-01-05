@@ -1,7 +1,7 @@
 export enum PageUrl {
   LOGIN = '/login',
   REGISTER = '/register',
-  FORGOTPASSWORD = '/forgotpassword',
+  FORGOT_PASSWORD = '/forgot-password',
   HOMEPAGE = '/',
   CART = '/cart',
   CHECKOUT = '/checkout',

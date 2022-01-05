@@ -1,8 +1,8 @@
 import { Book } from './book';
 
 export interface Cart {
-  cartid: string;
-  userid?: number;
+  cartId: string;
+  userId?: number;
   ListItems: CartItem[];
 }
 

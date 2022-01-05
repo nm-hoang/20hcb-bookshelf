@@ -1,5 +1,5 @@
 export interface Book {
-  bookid: number;
+  bookId: number;
   name: string;
   author: string;
   category: string;
@@ -8,21 +8,21 @@ export interface Book {
   rating?: number;
   isbn?: string;
   publisher: string;
-  daterelease: string;
+  releaseDate: string;
   description: string; //html type
   avatar: string;
   preview: PreviewBook[];
 }
 
 export interface PreviewBook {
-  previewbookid?: number;
+  previewBookId?: number;
   photo?: string;
 }
 
 export interface Comment {
-  commentid: number;
-  bookid: number;
-  fullname: string;
+  commentId: number;
+  bookId: number;
+  fullName: string;
   rating: number;
   content: number;
   avatar?: string;

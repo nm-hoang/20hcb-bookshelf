@@ -8,11 +8,9 @@ import todoApi from '../../api/todoApi';
 import {
   State,
   Todo,
-  // ListParams,
-  // ListResponse,
   ResponseBody,
   SingleResponse
-} from '../../models';
+} from '../../api/models';
 import { RootState } from '../../app/store';
 
 interface TodoState extends State<Todo> {}

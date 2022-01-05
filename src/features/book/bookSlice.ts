@@ -1,15 +1,12 @@
 import {
-  // AnyAction,
   createSlice,
-  // PayloadAction,
-  // createAsyncThunk
 } from '@reduxjs/toolkit';
 import {
   State,
   Book,
-} from '../../models';
+} from '../../api/models';
 import { RootState } from '../../app/store';
-import { ListBooks } from '../../data/book';
+import { ListBooks } from '../../api/data/book';
 
 interface BookState extends State<Book> { }
 
@@ -23,7 +20,7 @@ const bookSlice = createSlice({
   name: 'book',
   initialState,
   reducers: {
-    
+
   },
   extraReducers: ((builder) => {
 
