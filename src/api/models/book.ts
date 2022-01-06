@@ -24,6 +24,6 @@ export interface Comment {
   bookId: number;
   fullName: string;
   rating: number;
-  content: number;
+  content: string;
   avatar?: string;
 }
