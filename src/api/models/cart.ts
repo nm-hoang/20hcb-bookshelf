@@ -1,11 +1,9 @@
-import { Book } from './book';
-
-export interface Cart {
-  cartId: string;
-  userId?: number;
-  ListItems: CartItem[];
-}
-
-export interface CartItem extends Book {
+export interface CartItem {
   quantity?: number;
+  bookId?: number;
+  avatar?: string;
+  name?: string;
+  price?: number;
+  discount?: number;
+  checked?: boolean;
 }
