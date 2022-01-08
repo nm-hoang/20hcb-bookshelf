@@ -1,13 +1,11 @@
 import {
-  // AnyAction,
   createSlice,
   PayloadAction,
-  // createAsyncThunk
 } from '@reduxjs/toolkit';
 import {
   State,
-  CartItem
-} from '../../models';
+  CartItem,
+} from "../../api/models";
 import { RootState } from '../../app/store';
 import { CartData } from '../../api/data/cart';
 import Notify from '../../helpers/notify';
@@ -26,7 +24,7 @@ const cartSlice = createSlice({
   initialState,
   reducers: {
     addToCart(state, action: PayloadAction<CartItem>) {
-      const index = state.list!.findIndex(list => list.bookid === action.payload.bookid)!;
+      const index = state.list!.findIndex(list => list.bookId === action.payload.bookId)!;
       if (index >= 0) {
         state.list![index].quantity = state.list![index].quantity! + action.payload?.quantity!;
       }
@@ -36,7 +34,7 @@ const cartSlice = createSlice({
       Notify.success('', 'Add to cart successfully !');
     },
     removeItem(state, action: PayloadAction<number>) {
-      state.list = state.list!.filter((list) => list.bookid !== action.payload);
+      state.list = state.list!.filter((list) => list.bookId !== action.payload);
       Notify.success('', 'Remove item successfully !');
     },
     removeAll(state) {
@@ -44,17 +42,17 @@ const cartSlice = createSlice({
       Notify.success('', 'Remove all items in cart successfully !');
     },
     increaseItem(state, action: PayloadAction<number>) {
-      const index = state.list!.findIndex(list => list.bookid === action.payload)!;
+      const index = state.list!.findIndex(list => list.bookId === action.payload)!;
       if (state.list![index].quantity! < 100)
         state.list![index].quantity = state.list![index].quantity! + 1;
     },
     decreaseItem(state, action: PayloadAction<number>) {
-      const index = state.list!.findIndex(list => list.bookid === action.payload)!;
+      const index = state.list!.findIndex(list => list.bookId === action.payload)!;
       if (state.list![index].quantity! > 1)
         state.list![index].quantity = state.list![index].quantity! - 1;
     },
     setSelectedItem(state, action: PayloadAction<number>) {
-      const index = state.list!.findIndex(list => list.bookid === action.payload)!;
+      const index = state.list!.findIndex(list => list.bookId === action.payload)!;
       state.list![index].checked! = !state.list![index].checked!;
     },
     setCheckedAll(state) {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Col, Modal, Row, Image, Space } from 'antd';
-import { PreviewBook } from '../../../models';
+import { PreviewBook } from '../../../api/models';
 
 interface ModalPreviewProps {
 	visible: boolean;
@@ -62,7 +62,7 @@ function ModalPreview(props: ModalPreviewProps): JSX.Element {
 											width={90}
 											preview={false}
 											src={photo.photo}
-											key={photo.previewbookid}
+											key={photo.previewBookId}
 										/>
 									);
 								})}

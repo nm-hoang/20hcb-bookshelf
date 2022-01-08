@@ -1,6 +1,6 @@
 import React from 'react';
 import { Avatar, Col, Divider, Rate, Row, Space, Typography } from 'antd';
-import { Comment } from '../../../models';
+import { Comment } from '../../../api/models';
 
 interface CommentProps {
 	comment: Comment;
@@ -17,7 +17,7 @@ function CommentItem(props: CommentProps): JSX.Element {
 					<Space size={15}>
 						<Avatar size={50} src="https://joeschmoe.io/api/v1/random" />
 						<Space direction="vertical">
-							<Text className="h6">{comment.fullname}</Text>
+							<Text className="h6">{comment.fullName}</Text>
 							<Text>{comment.content}</Text>
 						</Space>
 					</Space>

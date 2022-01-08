@@ -1,6 +1,6 @@
 import {
-  createSlice,
-} from '@reduxjs/toolkit';
+  createSlice, PayloadAction
+} from "@reduxjs/toolkit";
 import {
   State,
   Book,
@@ -25,11 +25,16 @@ const bookSlice = createSlice({
   name: 'book',
   initialState,
   reducers: {
+    getBookById(state, action: PayloadAction<number>) {
+      state.single = state?.list!.find(list => list.bookId === action.payload);
+    }
   },
   extraReducers: ((builder) => {
 
   }),
 });
+
+export const { getBookById } = bookSlice.actions;
 
 export const selectListBooks = (state: RootState) => state.book.list;
 export const selectListComments = (state: RootState) => state.book.comments;
