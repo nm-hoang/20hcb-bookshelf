@@ -23,961 +23,961 @@ export const ListBooks: Book[] = [
   },
   {
     "bookId": 2,
-    "name": "Sunt amet est pariatur.",
-    "author": "Reynolds Barrett",
-    "category": "Science",
-    "price": 9.68,
-    "discount": 2,
+    "name": "Proident officia.",
+    "author": "Candy Winters",
+    "category": "Fiction",
+    "price": 25.51,
+    "discount": 1,
     "rating": 5,
-    "isbn": "9783598215919",
-    "publisher": "Zimmerman Watson",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Culpa do.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/38265fd1-fe35-471c-b3c6-8be14680ad1d.jpg",
+    "isbn": "9783598215944",
+    "publisher": "Wilcox Fernandez",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Magna et nostrud id.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 2,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/45d613c7-3776-4448-90a7-912883f6d3ba.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 3,
-    "name": "Do est ea dolore.",
-    "author": "Hatfield Pearson",
-    "category": "Politic",
-    "price": 23.33,
-    "discount": 3,
-    "rating": 2,
-    "isbn": "9783598215937",
-    "publisher": "Lucinda Blair",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Adipisicing qui.</li><li>Aliqua laborum culpa consectetur.</li><li>Et veniam ut et.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/ec77773e-553a-4793-883a-cdf04c8e6edb.jpg",
+    "name": "Laborum laborum.",
+    "author": "Kelley Alvarado",
+    "category": "Business",
+    "price": 19.42,
+    "discount": 8,
+    "rating": 1,
+    "isbn": "9783598215954",
+    "publisher": "Acosta Leach",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Officia culpa duis.</li><li>Non tempor aute.</li><li>Labore enim duis minim.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 3,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/5cb51927-fb1c-413d-a99e-fe1fd5eaa11e.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 4,
-    "name": "Veniam deserunt laborum laboris.",
-    "author": "Barron Fulton",
-    "category": "Pyschology",
-    "price": 23.93,
-    "discount": 2,
-    "rating": 2,
-    "isbn": "9783598215912",
-    "publisher": "Vonda Terry",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Excepteur ipsum nostrud.</li><li>Occaecat qui.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/cbd11a5f-1666-47e0-a6a5-1e6a872b419c.jpg",
+    "name": "Exercitation sit.",
+    "author": "Loretta Perez",
+    "category": "Computing",
+    "price": 28.36,
+    "discount": 6,
+    "rating": 3,
+    "isbn": "9783598215928",
+    "publisher": "Lourdes Bryant",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Dolore minim aliquip.</li><li>Eiusmod ullamco aliqua sunt.</li><li>Voluptate proident tempor dolor.</li><li>Exercitation elit.</li><li>Magna anim ullamco non.</li><li>Occaecat eiusmod.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 4,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/0b4833a7-ec5f-46b0-806b-9b82a0e463bf.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 5,
-    "name": "Magna irure pariatur anim.",
-    "author": "Ruth Hahn",
-    "category": "Fiction",
-    "price": 22.96,
-    "discount": 4,
-    "rating": 3,
-    "isbn": "9783598215962",
-    "publisher": "Tabitha Logan",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Non veniam.</li><li>Exercitation elit elit do.</li><li>Et ipsum nulla voluptate.</li><li>Duis amet elit.</li><li>Laboris veniam ad aliquip.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/79e1d2dc-1645-434a-9978-417e26b3f3a0.jpg",
+    "name": "Laborum duis laborum elit labore.",
+    "author": "Rhea Vaughan",
+    "category": "Politic",
+    "price": 20.72,
+    "discount": 10,
+    "rating": 4,
+    "isbn": "9783598215920",
+    "publisher": "Bean Floyd",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Ea nulla aliqua commodo.</li><li>Ut fugiat sunt occaecat.</li><li>Ad nisi consectetur cillum.</li><li>Reprehenderit duis adipisicing Lorem.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 5,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/ff62860b-074e-4bb9-b203-7d0244be2be9.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 6,
-    "name": "Occaecat minim pariatur.",
-    "author": "Tania Yang",
-    "category": "Business",
-    "price": 22.96,
-    "discount": 5,
-    "rating": 1,
-    "isbn": "9783598215989",
-    "publisher": "Conley Marks",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Laborum officia irure.</li><li>Dolor reprehenderit pariatur fugiat.</li><li>Dolore ipsum.</li><li>Eiusmod eu dolor.</li><li>Anim proident ullamco.</li><li>Amet nulla minim.</li><li>Laboris commodo anim tempor.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/05997543-2542-4616-8a6c-7c922efc97e9.jpg",
+    "name": "Ea ex ea do veniam.",
+    "author": "Charity Ashley",
+    "category": "Health",
+    "price": 13.54,
+    "discount": 1,
+    "rating": 5,
+    "isbn": "9783598215924",
+    "publisher": "Marietta Moody",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Et in officia est.</li><li>Magna duis qui nulla.</li><li>Ipsum ea do Lorem.</li><li>Id dolore.</li><li>Ad dolor culpa.</li><li>Ex exercitation mollit nulla.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 6,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/f0277c74-cde9-4077-8366-3baeded6e404.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 7,
-    "name": "Deserunt consectetur enim ad sunt.",
-    "author": "Noemi Oliver",
-    "category": "Pyschology",
-    "price": 5.65,
-    "discount": 4,
-    "rating": 5,
-    "isbn": "9783598215952",
-    "publisher": "Rosalie Hayden",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Ullamco dolore.</li><li>Consectetur deserunt.</li><li>Pariatur eu enim.</li><li>Amet commodo.</li><li>Proident quis sint esse.</li><li>Adipisicing minim.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/7b820b87-87e8-416b-973b-475c0b0bc15b.jpg",
+    "name": "Enim incididunt cillum officia fugiat.",
+    "author": "Noemi Cabrera",
+    "category": "Computing",
+    "price": 17.56,
+    "discount": 8,
+    "rating": 2,
+    "isbn": "9783598215927",
+    "publisher": "Fern Haynes",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Velit anim.</li><li>Irure aliqua ipsum dolore.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 7,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/2db71cf6-76a9-4d2e-aa7a-0c7008b870b8.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 8,
-    "name": "Quis veniam est irure.",
-    "author": "Greene Rich",
-    "category": "Art & Photography",
-    "price": 17.42,
-    "discount": 0,
-    "rating": 4,
-    "isbn": "9783598215985",
-    "publisher": "Concetta Abbott",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Officia et proident.</li><li>Lorem aute aliqua.</li><li>In fugiat.</li><li>Aliqua consectetur.</li><li>Ut sunt.</li><li>Exercitation ex.</li><li>Aute elit laboris.</li><li>Fugiat incididunt.</li><li>Cupidatat aliquip.</li><li>Dolore minim deserunt nisi.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/e501c1bb-a5e9-45df-bd69-af3f0a74d6dd.jpg",
+    "name": "Ullamco tempor nulla ad.",
+    "author": "Workman Anthony",
+    "category": "Pyschology",
+    "price": 23.83,
+    "discount": 5,
+    "rating": 3,
+    "isbn": "9783598215978",
+    "publisher": "Hodge Hammond",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Elit anim sunt ad.</li><li>Eiusmod pariatur.</li><li>Qui anim.</li><li>Aliquip non magna.</li><li>Est reprehenderit Lorem irure.</li><li>Dolor eu.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 8,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/e4e3a933-b6d7-4213-84ed-9a5f25f5c7d1.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 9,
-    "name": "Tempor fugiat.",
-    "author": "Guthrie Clements",
-    "category": "Science",
-    "price": 18.39,
-    "discount": 5,
-    "rating": 5,
-    "isbn": "9783598215975",
-    "publisher": "Mcclure Walter",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Magna nostrud deserunt elit.</li><li>Tempor non sit.</li><li>Consectetur sint.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/59428b6a-471c-44ba-a9ef-31569b9de395.jpg",
+    "name": "Velit velit exercitation.",
+    "author": "Moon Best",
+    "category": "Fiction",
+    "price": 20.82,
+    "discount": 3,
+    "rating": 2,
+    "isbn": "9783598215952",
+    "publisher": "Sheree Maxwell",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Magna ut eu.</li><li>Tempor labore.</li><li>Velit dolor ullamco.</li><li>Labore duis ad.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 9,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/3e09bfa1-f4da-45e5-ac97-079b1e1a3dc0.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 10,
-    "name": "In id magna cillum sint.",
-    "author": "Flores Hopkins",
+    "name": "Duis consequat pariatur mollit tempor.",
+    "author": "Bowen Hatfield",
     "category": "Fiction",
-    "price": 25.75,
-    "discount": 2,
+    "price": 13.83,
+    "discount": 9,
     "rating": 4,
-    "isbn": "9783598215942",
-    "publisher": "Chen Garner",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Dolore amet.</li><li>Qui non aute esse.</li><li>Exercitation elit.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/6fef4e24-886d-403e-bb03-827a4eaaa53c.jpg",
+    "isbn": "9783598215925",
+    "publisher": "Marquez Carney",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Anim officia occaecat aliquip.</li><li>Voluptate culpa in consequat.</li><li>Minim sint.</li><li>Mollit consequat deserunt aute.</li><li>Veniam elit commodo consectetur.</li><li>Ullamco culpa.</li><li>Proident et.</li><li>Nulla voluptate ullamco.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 10,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/7bebc8b8-6b2d-47c6-a816-33b1d9e5a9a4.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 11,
-    "name": "Irure veniam nulla consequat ipsum.",
-    "author": "Preston Todd",
-    "category": "Computing",
-    "price": 18.07,
-    "discount": 4,
-    "rating": 4,
-    "isbn": "9783598215952",
-    "publisher": "Burton Ortega",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Id in.</li><li>Cillum elit.</li><li>Enim enim mollit.</li><li>Sit consequat Lorem.</li><li>Elit nostrud excepteur velit.</li><li>Qui ea.</li><li>Culpa pariatur.</li><li>Non et consectetur.</li><li>Mollit excepteur.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/f9b337de-8342-4f84-a08a-fdd64e4534d5.jpg",
+    "name": "Enim reprehenderit excepteur.",
+    "author": "Goodman Hyde",
+    "category": "Science",
+    "price": 23.03,
+    "discount": 1,
+    "rating": 2,
+    "isbn": "9783598215999",
+    "publisher": "Kristin Cleveland",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Id minim anim.</li><li>Velit est eiusmod.</li><li>Velit dolor laboris.</li><li>Consectetur ut.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 11,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/5efc9073-88af-497e-8cb1-5c7b0054732d.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 12,
-    "name": "Aliqua eiusmod.",
-    "author": "Cantu Conner",
-    "category": "Art & Photography",
-    "price": 29.82,
-    "discount": 5,
+    "name": "Nostrud qui ipsum velit in.",
+    "author": "Lillian Cruz",
+    "category": "Politic",
+    "price": 13.61,
+    "discount": 7,
     "rating": 3,
-    "isbn": "9783598215975",
-    "publisher": "Hodges Downs",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Aliqua ut quis.</li><li>Aliquip velit.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/22502127-76f2-4444-84a4-c6a344200f4a.jpg",
+    "isbn": "9783598215945",
+    "publisher": "Regina Hutchinson",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Eu qui irure.</li><li>Nulla cillum incididunt.</li><li>Minim veniam.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 12,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/dee51ead-e393-4e03-bcf5-d21885b579e5.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 13,
-    "name": "Amet pariatur velit in.",
-    "author": "Robinson Mendez",
-    "category": "Science",
-    "price": 24.34,
-    "discount": 10,
+    "name": "Magna aliquip exercitation excepteur.",
+    "author": "Dejesus Rogers",
+    "category": "Health",
+    "price": 7.86,
+    "discount": 4,
     "rating": 2,
-    "isbn": "9783598215913",
-    "publisher": "Pansy Reyes",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Ut ad eu ipsum.</li><li>Anim nisi tempor aliqua.</li><li>Nisi mollit eiusmod culpa.</li><li>Ullamco officia amet.</li><li>Fugiat Lorem.</li><li>Culpa aute incididunt non.</li><li>Reprehenderit minim nulla veniam.</li><li>Minim magna laboris Lorem.</li><li>Consequat voluptate.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/41970bfd-9e40-46cd-a30c-81d2bc0d8c5a.jpg",
+    "isbn": "9783598215975",
+    "publisher": "Suzette Mercado",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Labore irure.</li><li>Incididunt ut nostrud veniam.</li><li>Mollit quis eu.</li><li>Sunt est.</li><li>Laborum irure dolor.</li><li>Occaecat laborum laboris occaecat.</li><li>Dolore ullamco.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 13,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/15cb16b2-3e57-4698-89cd-0b2455f93f27.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 14,
-    "name": "Reprehenderit dolore quis excepteur voluptate.",
-    "author": "Stevenson Sosa",
-    "category": "Computing",
-    "price": 13.45,
-    "discount": 10,
-    "rating": 4,
-    "isbn": "9783598215954",
-    "publisher": "Carmela Fernandez",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Dolore Lorem.</li><li>Ipsum occaecat culpa.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/4d6da8d5-5ab9-475e-8c22-8fa83c9b5d70.jpg",
+    "name": "Sint do sit est.",
+    "author": "Peterson Santiago",
+    "category": "Pyschology",
+    "price": 26.98,
+    "discount": 5,
+    "rating": 2,
+    "isbn": "9783598215957",
+    "publisher": "Tanya Bell",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Reprehenderit et sit.</li><li>Velit cillum.</li><li>Sit voluptate.</li><li>Voluptate mollit commodo.</li><li>Commodo veniam.</li><li>Labore cupidatat.</li><li>Quis magna in.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 14,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/357e59a7-20af-4ba5-b163-720ae122eccd.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 15,
-    "name": "Est cillum laboris adipisicing nisi.",
-    "author": "Johnston David",
-    "category": "Pyschology",
-    "price": 18.25,
-    "discount": 10,
-    "rating": 3,
-    "isbn": "9783598215963",
-    "publisher": "Gregory Alvarez",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>In dolor cupidatat aliqua.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/eae4797f-a758-426a-b4af-a79f34dbe790.jpg",
+    "name": "Est adipisicing minim.",
+    "author": "Jackie Rivas",
+    "category": "Politic",
+    "price": 8.67,
+    "discount": 9,
+    "rating": 2,
+    "isbn": "9783598215947",
+    "publisher": "Harriett Powell",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Eu sit cillum.</li><li>Ex minim mollit.</li><li>Enim adipisicing voluptate in.</li><li>Excepteur do tempor eiusmod.</li><li>Est esse.</li><li>Nostrud irure cillum.</li><li>Non est consequat culpa.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 15,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/50dbf473-e9b6-46b0-a4dc-d6513d721458.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 16,
-    "name": "Laboris excepteur sint.",
-    "author": "Duncan Garrett",
+    "name": "Ex cupidatat nulla.",
+    "author": "Elinor Booth",
     "category": "Art & Photography",
-    "price": 7.07,
-    "discount": 5,
-    "rating": 4,
-    "isbn": "9783598215979",
-    "publisher": "Lesley Mcneil",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Esse est pariatur.</li><li>Reprehenderit labore.</li><li>Nulla aute.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/b88b509c-46af-46a5-be94-5045504a5fcd.jpg",
+    "price": 27.34,
+    "discount": 7,
+    "rating": 1,
+    "isbn": "9783598215948",
+    "publisher": "Kris Bennett",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Adipisicing eu dolore culpa.</li><li>Sint nisi amet.</li><li>Consequat minim.</li><li>Occaecat excepteur.</li><li>Ullamco Lorem laboris id.</li><li>Aute culpa enim.</li><li>Culpa dolor aliqua.</li><li>Id do officia ea.</li><li>Ex elit.</li><li>Amet sunt eiusmod.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 16,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/d2bfbef6-0672-41d3-bf1d-cc0de6880f85.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 17,
-    "name": "Tempor veniam non sint.",
-    "author": "Eddie Wolfe",
-    "category": "Pyschology",
-    "price": 24.06,
-    "discount": 10,
+    "name": "Ullamco duis amet dolor eu.",
+    "author": "Patsy Koch",
+    "category": "Business",
+    "price": 25.31,
+    "discount": 8,
     "rating": 4,
-    "isbn": "9783598215943",
-    "publisher": "Lilly Snow",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Adipisicing ullamco.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/f6690879-99c8-4408-93e8-db98cff9dab3.jpg",
+    "isbn": "9783598215935",
+    "publisher": "April Brooks",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Veniam non tempor.</li><li>Commodo eu est dolore.</li><li>Enim enim pariatur sit.</li><li>Irure ex commodo exercitation.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 17,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/d7bda426-e123-4933-808c-3d642bdabfe7.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 18,
-    "name": "Ad id.",
-    "author": "Krystal Jacobson",
-    "category": "Business",
-    "price": 11.43,
-    "discount": 4,
-    "rating": 4,
-    "isbn": "9783598215978",
-    "publisher": "Wilson Harvey",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Irure adipisicing magna.</li><li>Dolor incididunt ut.</li><li>Anim ullamco nisi.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/b219e170-c382-47c1-8e81-3c5333bb7706.jpg",
+    "name": "Tempor et irure anim adipisicing.",
+    "author": "Ronda Avila",
+    "category": "Pyschology",
+    "price": 18.73,
+    "discount": 9,
+    "rating": 1,
+    "isbn": "9783598215980",
+    "publisher": "Dorothea Mccarty",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Magna excepteur.</li><li>Elit nisi eu.</li><li>Magna Lorem veniam aliqua.</li><li>Ullamco id.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 18,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/3a4616e2-b7fb-47f8-ad3d-c80b06820011.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 19,
-    "name": "Ullamco sint duis.",
-    "author": "Penelope Decker",
+    "name": "Voluptate in.",
+    "author": "Shana Vargas",
     "category": "Fiction",
-    "price": 8.75,
+    "price": 29.84,
     "discount": 1,
-    "rating": 4,
-    "isbn": "9783598215975",
-    "publisher": "Alexander Wooten",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Nulla aliquip culpa et.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/a10d78d1-ce83-4f6d-ae27-5114900034d8.jpg",
+    "rating": 1,
+    "isbn": "9783598215969",
+    "publisher": "Muriel Ford",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Laboris ullamco dolor.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 19,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/c9657707-27f1-405f-9da3-3297a8ce9220.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 20,
-    "name": "Quis eiusmod Lorem anim.",
-    "author": "Rita Crawford",
-    "category": "Pyschology",
-    "price": 27.84,
-    "discount": 3,
-    "rating": 5,
-    "isbn": "9783598215943",
-    "publisher": "Georgette Flynn",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Voluptate adipisicing officia occaecat.</li><li>Elit sit.</li><li>Velit ipsum nulla eu.</li><li>Nulla et.</li><li>Duis do deserunt.</li><li>Anim exercitation aute consectetur.</li><li>Enim ea deserunt irure.</li><li>Nulla cillum fugiat ullamco.</li><li>Dolor ipsum sit.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/69394ec9-ee3e-40f5-85d3-140163ca9fc3.jpg",
+    "name": "Tempor ut esse.",
+    "author": "Booth Dickson",
+    "category": "Art & Photography",
+    "price": 25.96,
+    "discount": 9,
+    "rating": 3,
+    "isbn": "9783598215949",
+    "publisher": "Alvarez Cook",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Mollit quis id.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 20,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/675bf28e-b23b-4ea9-8b22-a4b90c6a3beb.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 21,
-    "name": "Mollit duis.",
-    "author": "Wong Blake",
+    "name": "Duis ipsum veniam amet.",
+    "author": "Morin Craft",
     "category": "Politic",
-    "price": 28.68,
-    "discount": 9,
-    "rating": 3,
-    "isbn": "9783598215994",
-    "publisher": "Maribel Watts",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Dolor occaecat excepteur.</li><li>Fugiat laborum laboris sit.</li><li>Consequat qui.</li><li>Aliqua magna.</li><li>Aliquip laborum.</li><li>Cupidatat excepteur.</li><li>Anim exercitation.</li><li>Consectetur nisi.</li><li>Anim culpa nulla voluptate.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/ead39608-ecdd-413c-b392-8670e7c14fb3.jpg",
+    "price": 16.04,
+    "discount": 3,
+    "rating": 4,
+    "isbn": "9783598215982",
+    "publisher": "Lelia Weber",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Est amet sit.</li><li>Velit reprehenderit cupidatat adipisicing.</li><li>Do consequat ullamco.</li><li>Dolore ullamco deserunt esse.</li><li>Enim ea laboris.</li><li>Consequat qui laboris velit.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 21,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/055fb9c6-0274-444a-b9f2-c6b5a76cd071.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 22,
-    "name": "Ut quis.",
-    "author": "Haley Reed",
-    "category": "Pyschology",
-    "price": 13.71,
-    "discount": 8,
-    "rating": 3,
-    "isbn": "9783598215928",
-    "publisher": "Molly Estrada",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Aliquip elit duis.</li><li>Dolor non adipisicing laborum.</li><li>Voluptate ut exercitation aute.</li><li>Eu pariatur.</li><li>Do incididunt fugiat.</li><li>Non do dolor.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/bc288aee-425a-4fee-a9f3-9ead07fd3c43.jpg",
+    "name": "Labore mollit laboris.",
+    "author": "Rush Mcneil",
+    "category": "Health",
+    "price": 13.89,
+    "discount": 10,
+    "rating": 2,
+    "isbn": "9783598215920",
+    "publisher": "Skinner Conner",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Dolore eu.</li><li>Ex magna id ad.</li><li>Magna nostrud.</li><li>Id proident deserunt sunt.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 22,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/cee0055e-733f-46bf-bc4c-cbe5e441fc40.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 23,
-    "name": "Dolore est quis consequat et.",
-    "author": "Davenport Golden",
-    "category": "Business",
-    "price": 28.16,
-    "discount": 6,
-    "rating": 5,
-    "isbn": "9783598215935",
-    "publisher": "Gabrielle Haynes",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Magna ad.</li><li>Enim est.</li><li>Esse sint pariatur.</li><li>In esse aliqua mollit.</li><li>Officia elit.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/9ddf396e-8f82-4f61-8a0c-dec82a8331c7.jpg",
+    "name": "Laboris quis.",
+    "author": "Vasquez Richard",
+    "category": "Art & Photography",
+    "price": 24.35,
+    "discount": 0,
+    "rating": 2,
+    "isbn": "9783598215977",
+    "publisher": "Curry Carlson",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Ut nisi duis esse.</li><li>Sunt sit ipsum excepteur.</li><li>Aliquip adipisicing reprehenderit.</li><li>Non anim quis.</li><li>Excepteur aute.</li><li>Magna nulla.</li><li>Do ullamco duis.</li><li>Deserunt tempor minim.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 23,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/90e7494d-f2c9-43eb-900f-b6edbc41ab93.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 24,
-    "name": "Ea enim.",
-    "author": "Latisha Dominguez",
-    "category": "Health",
-    "price": 24.29,
-    "discount": 7,
-    "rating": 5,
-    "isbn": "9783598215997",
-    "publisher": "Coffey Richard",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Aliquip duis aute ex.</li><li>Enim Lorem nulla.</li><li>Esse nulla tempor.</li><li>Eu consequat pariatur.</li><li>Minim ad qui.</li><li>Officia veniam consequat.</li><li>Deserunt proident commodo eu.</li><li>Eiusmod elit.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/95387f45-bfb5-4d47-b6b3-82afe675e5cf.jpg",
+    "name": "Proident irure mollit voluptate magna.",
+    "author": "Allison Harmon",
+    "category": "Business",
+    "price": 5.25,
+    "discount": 3,
+    "rating": 2,
+    "isbn": "9783598215977",
+    "publisher": "Elma Peterson",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Adipisicing Lorem officia.</li><li>Reprehenderit culpa aute elit.</li><li>Ex ipsum minim.</li><li>Nostrud magna deserunt cillum.</li><li>Voluptate culpa.</li><li>Elit consequat non.</li><li>Sunt laborum.</li><li>Commodo anim voluptate dolor.</li><li>Cillum consectetur.</li><li>Veniam culpa.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 24,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/343a82d5-662c-4d6f-97d9-5227468bce58.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 25,
-    "name": "Nisi mollit.",
-    "author": "Villarreal Murray",
-    "category": "Fiction",
-    "price": 16.45,
-    "discount": 6,
-    "rating": 1,
-    "isbn": "9783598215921",
-    "publisher": "Melanie Sears",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Ad tempor excepteur.</li><li>Lorem nisi do laborum.</li><li>Anim cillum deserunt.</li><li>Commodo consectetur duis.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/8cc3201d-04a3-493b-accf-339a25058cb1.jpg",
+    "name": "Cupidatat aute nisi ullamco.",
+    "author": "Wright Bond",
+    "category": "Pyschology",
+    "price": 17.39,
+    "discount": 9,
+    "rating": 2,
+    "isbn": "9783598215922",
+    "publisher": "Bush Herring",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Sint laborum occaecat officia.</li><li>Eiusmod adipisicing.</li><li>Enim non eu velit.</li><li>Veniam velit Lorem ullamco.</li><li>Aute consectetur ullamco.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 25,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/ab12127f-e3e6-474d-9515-28010faef26d.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 26,
-    "name": "Fugiat esse.",
-    "author": "Ashlee Contreras",
-    "category": "Fiction",
-    "price": 6.71,
-    "discount": 10,
-    "rating": 3,
-    "isbn": "9783598215945",
-    "publisher": "Rutledge Levine",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Ullamco aliquip.</li><li>Esse proident.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/63f74489-c892-44cb-8f70-ab3098d17b7a.jpg",
+    "name": "Minim duis.",
+    "author": "England Bowers",
+    "category": "Pyschology",
+    "price": 8.52,
+    "discount": 2,
+    "rating": 4,
+    "isbn": "9783598215921",
+    "publisher": "Patrica Foreman",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Ad duis eiusmod.</li><li>Officia commodo voluptate.</li><li>Nisi aliquip occaecat consequat.</li><li>Ex ullamco.</li><li>Dolore nostrud aute sint.</li><li>Eiusmod ipsum elit.</li><li>Fugiat velit.</li><li>Et quis sunt fugiat.</li><li>Occaecat incididunt Lorem.</li><li>Duis enim aliquip magna.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 26,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/cebf5f29-11fa-4e94-977b-dfb503c1d406.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 27,
-    "name": "Duis Lorem sint ut anim.",
-    "author": "Wilcox Hood",
-    "category": "Fiction",
-    "price": 21.31,
-    "discount": 0,
-    "rating": 3,
-    "isbn": "9783598215931",
-    "publisher": "Hampton Oneal",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Culpa ullamco enim.</li><li>Mollit ex.</li><li>Voluptate amet dolor Lorem.</li><li>Sunt occaecat adipisicing.</li><li>Elit quis adipisicing nisi.</li><li>Magna sint exercitation.</li><li>Amet et occaecat dolor.</li><li>Veniam esse dolore.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/d2907088-02d3-49db-a0df-420243a8cacf.jpg",
+    "name": "Ullamco anim id minim.",
+    "author": "Kasey Tillman",
+    "category": "Pyschology",
+    "price": 13.02,
+    "discount": 5,
+    "rating": 4,
+    "isbn": "9783598215910",
+    "publisher": "Best Morris",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Excepteur voluptate.</li><li>Id consectetur esse veniam.</li><li>Eiusmod est cupidatat.</li><li>Laboris do nulla irure.</li><li>Eu deserunt.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 27,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/9b416b4d-d868-4146-a62b-33fd0d07fe5d.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 28,
-    "name": "Officia ut quis dolor.",
-    "author": "Alvarado Grimes",
-    "category": "Health",
-    "price": 6.83,
-    "discount": 3,
-    "rating": 4,
-    "isbn": "9783598215953",
-    "publisher": "Liza Summers",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Excepteur ea quis.</li><li>Officia ad ut.</li><li>Nostrud qui.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/705b9c5b-e640-4318-ad35-d97738fe7f53.jpg",
+    "name": "Pariatur Lorem cillum.",
+    "author": "Owen May",
+    "category": "Art & Photography",
+    "price": 14.36,
+    "discount": 7,
+    "rating": 2,
+    "isbn": "9783598215984",
+    "publisher": "Robbins Gilmore",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Ad exercitation sit.</li><li>Lorem in nulla deserunt.</li><li>Laborum consequat ad.</li><li>Culpa dolor est officia.</li><li>Irure aliqua dolor.</li><li>Ut tempor.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 28,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/9070a5a3-adb5-4724-b107-b682e88be3c6.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 29,
-    "name": "Dolore duis cupidatat.",
-    "author": "Harper King",
-    "category": "Computing",
-    "price": 17.44,
-    "discount": 2,
-    "rating": 4,
-    "isbn": "9783598215997",
-    "publisher": "Elva Higgins",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Ut ex in fugiat.</li><li>Exercitation adipisicing anim nostrud.</li><li>Sunt proident.</li><li>Fugiat commodo quis.</li><li>Irure veniam exercitation ut.</li><li>Pariatur occaecat.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/f719bc39-c485-4e2e-8359-172cb2efafb8.jpg",
+    "name": "Incididunt dolor.",
+    "author": "Combs Potter",
+    "category": "Pyschology",
+    "price": 25.21,
+    "discount": 3,
+    "rating": 1,
+    "isbn": "9783598215947",
+    "publisher": "Linda Lawson",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Consequat laborum.</li><li>Deserunt quis mollit officia.</li><li>Sunt proident irure ipsum.</li><li>Laborum eiusmod.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 29,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/8730ddcb-4b94-4f55-a9e8-f33e45faa3e6.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 30,
-    "name": "Labore amet elit mollit.",
-    "author": "Cherie Porter",
-    "category": "Fiction",
-    "price": 21.73,
-    "discount": 2,
-    "rating": 5,
-    "isbn": "9783598215984",
-    "publisher": "Lynn Maxwell",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Reprehenderit elit nisi.</li><li>Eiusmod quis ex aute.</li><li>Aliquip qui.</li><li>Ullamco excepteur.</li><li>Irure enim qui irure.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/78e2d57d-fc3e-4034-838c-5d7c1872fc94.jpg",
+    "name": "Magna excepteur dolor eiusmod exercitation.",
+    "author": "Nunez Douglas",
+    "category": "Art & Photography",
+    "price": 16.57,
+    "discount": 3,
+    "rating": 3,
+    "isbn": "9783598215912",
+    "publisher": "Leanne David",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Qui cupidatat proident.</li><li>Ea in.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 30,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/62c55e35-f6c2-431e-8f3d-241ac9e8b2e5.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 31,
-    "name": "Fugiat amet.",
-    "author": "Donna Schultz",
-    "category": "Fiction",
-    "price": 21.62,
-    "discount": 8,
+    "name": "Incididunt in.",
+    "author": "Colette Nielsen",
+    "category": "Science",
+    "price": 5.05,
+    "discount": 5,
     "rating": 3,
-    "isbn": "9783598215933",
-    "publisher": "Michael Gill",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Est magna excepteur.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/c9845837-d01f-4c63-8189-bb5e3137dc59.jpg",
+    "isbn": "9783598215961",
+    "publisher": "Berger Stephenson",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Deserunt culpa.</li><li>Magna cillum.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 31,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/4de83c77-f077-486a-b45c-e1acea7c15e7.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 32,
-    "name": "Aliqua sint qui quis ex.",
-    "author": "Cross Bray",
-    "category": "Politic",
-    "price": 13.27,
-    "discount": 10,
-    "rating": 3,
-    "isbn": "9783598215932",
-    "publisher": "Estella Wilder",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Tempor consequat ullamco commodo.</li><li>Ea ullamco.</li><li>Voluptate non adipisicing.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/c6e0b7ac-76a0-4dcc-8de8-b567e1055e6e.jpg",
+    "name": "Sint culpa ad.",
+    "author": "Adela Lindsay",
+    "category": "Pyschology",
+    "price": 14.63,
+    "discount": 7,
+    "rating": 1,
+    "isbn": "9783598215937",
+    "publisher": "Slater Hall",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Anim in veniam.</li><li>Esse sunt consequat.</li><li>Nulla voluptate.</li><li>Amet occaecat.</li><li>Fugiat dolore.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 32,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/3453f762-bf78-49c7-aed6-c2059a820d56.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 33,
-    "name": "Culpa consequat.",
-    "author": "Jenny Nixon",
-    "category": "Pyschology",
-    "price": 14.85,
-    "discount": 6,
-    "rating": 2,
-    "isbn": "9783598215977",
-    "publisher": "Leola Osborne",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Nostrud nulla.</li><li>Non eu nisi excepteur.</li><li>Irure quis mollit cupidatat.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/6b2f7ec3-2968-40aa-b81d-7517b6b4f4ac.jpg",
+    "name": "Ullamco consectetur cupidatat nulla pariatur.",
+    "author": "Stein Curtis",
+    "category": "Health",
+    "price": 16.11,
+    "discount": 8,
+    "rating": 4,
+    "isbn": "9783598215965",
+    "publisher": "Hayes Wolf",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Velit do quis.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 33,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/92a5e608-0ec3-45a5-98d9-c552cee77622.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 34,
-    "name": "Nulla ex.",
-    "author": "Dollie Wong",
-    "category": "Computing",
-    "price": 5.41,
+    "name": "Reprehenderit pariatur.",
+    "author": "Charlene Stevenson",
+    "category": "Health",
+    "price": 15.91,
     "discount": 8,
     "rating": 3,
-    "isbn": "9783598215984",
-    "publisher": "Calhoun Alvarado",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Consectetur do velit.</li><li>Non adipisicing sit irure.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/0973e4ef-49fc-4cf7-bb9e-439bc36a6e5d.jpg",
+    "isbn": "9783598215986",
+    "publisher": "Terry Gregory",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Qui ullamco quis sit.</li><li>Occaecat laborum ea aliqua.</li><li>Id tempor aliqua.</li><li>Laboris pariatur.</li><li>Consectetur labore.</li><li>Reprehenderit cillum.</li><li>Culpa cupidatat.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 34,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/a3e47562-6a0c-4064-a385-78dfaa5c618a.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 35,
-    "name": "Fugiat occaecat nostrud.",
-    "author": "Beach Le",
-    "category": "Fiction",
-    "price": 14.03,
-    "discount": 7,
-    "rating": 4,
-    "isbn": "9783598215919",
-    "publisher": "Erica Herman",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Incididunt mollit veniam.</li><li>Labore magna consectetur.</li><li>Id excepteur.</li><li>Eiusmod eu labore.</li><li>Lorem dolore amet.</li><li>Nisi voluptate eu.</li><li>Aliquip veniam do culpa.</li><li>Exercitation pariatur fugiat.</li><li>Do sit officia.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/7a2139a5-fef6-49d4-9329-577ee49db98b.jpg",
+    "name": "Sint id anim.",
+    "author": "Valerie Barker",
+    "category": "Health",
+    "price": 29.08,
+    "discount": 9,
+    "rating": 5,
+    "isbn": "9783598215996",
+    "publisher": "Adrienne Blackwell",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Ut voluptate proident.</li><li>Pariatur id dolor.</li><li>Ea eiusmod velit.</li><li>Veniam do.</li><li>Labore mollit.</li><li>Lorem qui proident do.</li><li>Culpa consequat.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 35,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/be4c7fef-f594-4d14-8a61-2175c6846637.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 36,
-    "name": "Dolore Lorem anim nisi ad.",
-    "author": "Mays Barlow",
+    "name": "Commodo velit cupidatat.",
+    "author": "Merritt Skinner",
     "category": "Politic",
-    "price": 12.52,
-    "discount": 5,
-    "rating": 2,
-    "isbn": "9783598215964",
-    "publisher": "Mitchell Dunlap",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Est est nisi.</li><li>Occaecat culpa cupidatat.</li><li>Laboris labore.</li><li>Anim ut.</li><li>Labore voluptate.</li><li>Ea ullamco cupidatat.</li><li>Sint nostrud sit laboris.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/4da107aa-dbc8-4bf4-9940-b07f11763211.jpg",
+    "price": 16.28,
+    "discount": 10,
+    "rating": 5,
+    "isbn": "9783598215994",
+    "publisher": "Hope Harrell",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Anim incididunt consectetur.</li><li>Reprehenderit proident ipsum nulla.</li><li>Fugiat consequat tempor voluptate.</li><li>Non sint.</li><li>Velit dolor sunt.</li><li>Dolor consequat.</li><li>Velit laboris id nulla.</li><li>Eu culpa.</li><li>Reprehenderit magna consectetur.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 36,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/0a8cf1c8-854f-4b40-98a7-3d09723ca457.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 37,
-    "name": "Nostrud tempor ullamco.",
-    "author": "Walters Whitfield",
-    "category": "Art & Photography",
-    "price": 18.93,
-    "discount": 4,
-    "rating": 1,
-    "isbn": "9783598215989",
-    "publisher": "Ayala Mcintosh",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Ea dolor consequat.</li><li>Incididunt tempor.</li><li>Ea enim tempor.</li><li>Anim est ea elit.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/e974eaff-c434-4920-925d-5a8c2555da31.jpg",
+    "name": "Aute excepteur ipsum.",
+    "author": "Jacquelyn Russo",
+    "category": "Computing",
+    "price": 26.56,
+    "discount": 7,
+    "rating": 3,
+    "isbn": "9783598215961",
+    "publisher": "Joyner Vega",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Dolore officia officia velit.</li><li>In id sunt aliquip.</li><li>Aute aute cupidatat nostrud.</li><li>Duis deserunt consequat.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 37,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/3deb58f6-e2e6-4424-839c-33f9c7607702.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 38,
-    "name": "Lorem sint excepteur aute cillum.",
-    "author": "Estelle Rodgers",
-    "category": "Science",
-    "price": 17.72,
-    "discount": 4,
+    "name": "Enim reprehenderit culpa nisi.",
+    "author": "Lindsey Wagner",
+    "category": "Health",
+    "price": 17.79,
+    "discount": 10,
     "rating": 2,
-    "isbn": "9783598215931",
-    "publisher": "Minnie Duncan",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Eiusmod in exercitation.</li><li>Aute qui cupidatat.</li><li>Cillum quis qui fugiat.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/cad2b87f-610d-4fd1-8d09-ecd63982cffd.jpg",
+    "isbn": "9783598215939",
+    "publisher": "Bishop Dawson",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Nostrud commodo consequat do.</li><li>Laboris eu.</li><li>Consectetur incididunt.</li><li>Exercitation id adipisicing ullamco.</li><li>Enim eu.</li><li>Incididunt eiusmod magna.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 38,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/5fdd7b54-9bed-4377-abcf-c3d53feeb433.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 39,
-    "name": "Exercitation nostrud.",
-    "author": "Leslie Brewer",
-    "category": "Pyschology",
-    "price": 18.97,
-    "discount": 8,
-    "rating": 1,
-    "isbn": "9783598215997",
-    "publisher": "Hicks Klein",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Incididunt cillum et dolore.</li><li>Labore tempor.</li><li>Duis exercitation est cupidatat.</li><li>Sint consectetur qui.</li><li>Duis cupidatat.</li><li>Ut irure.</li><li>Lorem excepteur velit.</li><li>Occaecat sunt.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/583b217d-91af-41b5-8063-5a97b1caf182.jpg",
+    "name": "Excepteur ex.",
+    "author": "Saunders Massey",
+    "category": "Computing",
+    "price": 5.59,
+    "discount": 10,
+    "rating": 5,
+    "isbn": "9783598215960",
+    "publisher": "Victoria Bush",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Enim Lorem duis.</li><li>Mollit cupidatat.</li><li>Sunt ad veniam.</li><li>Exercitation adipisicing.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 39,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/9d028a3c-b240-4da2-88ce-7abe9b14099c.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 40,
-    "name": "Anim nisi quis culpa.",
-    "author": "Dionne Roy",
-    "category": "Business",
-    "price": 20.51,
-    "discount": 1,
-    "rating": 2,
-    "isbn": "9783598215985",
-    "publisher": "Delacruz Frederick",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Officia commodo.</li><li>Ex exercitation mollit laborum.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/cb328ea5-e617-4f1b-9fb3-09f2a408ad8f.jpg",
+    "name": "Sunt mollit aute fugiat veniam.",
+    "author": "Cross Webster",
+    "category": "Health",
+    "price": 13.23,
+    "discount": 9,
+    "rating": 1,
+    "isbn": "9783598215974",
+    "publisher": "Wilkinson Wood",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Lorem officia.</li><li>Consectetur exercitation.</li><li>Eu qui nostrud.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 40,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/fe396166-6034-4e8c-9eba-bbfab9ef042b.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 41,
-    "name": "Aliqua qui culpa ea.",
-    "author": "Mccarthy Mullen",
-    "category": "Fiction",
-    "price": 6.68,
-    "discount": 9,
-    "rating": 2,
-    "isbn": "9783598215928",
-    "publisher": "Brenda Phelps",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Magna amet aute.</li><li>Tempor quis.</li><li>Cillum ipsum.</li><li>Exercitation dolor non non.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/6b8ca117-574b-4748-ad2e-18ef1be3ae2d.jpg",
+    "name": "Est amet aute velit cillum.",
+    "author": "Garza Parks",
+    "category": "Politic",
+    "price": 24.13,
+    "discount": 8,
+    "rating": 1,
+    "isbn": "9783598215985",
+    "publisher": "Odonnell Holder",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Labore nostrud dolor.</li><li>Consequat non incididunt.</li><li>Excepteur dolor adipisicing.</li><li>Reprehenderit culpa commodo.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 41,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/b0d0c2f2-17d2-46dc-b872-832ac6663d21.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 42,
-    "name": "Veniam ullamco ex proident.",
-    "author": "Kayla Frazier",
+    "name": "Tempor consectetur proident excepteur laboris.",
+    "author": "Nellie Mills",
     "category": "Business",
-    "price": 27.15,
+    "price": 9.43,
     "discount": 6,
-    "rating": 4,
-    "isbn": "9783598215971",
-    "publisher": "Hattie Clarke",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Laborum velit.</li><li>Fugiat qui duis aliquip.</li><li>Qui aute proident consequat.</li><li>Nulla laborum labore.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/69867677-cad4-4a37-ae0e-cbe0ca5c34ca.jpg",
+    "rating": 5,
+    "isbn": "9783598215954",
+    "publisher": "Donaldson Clements",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Anim voluptate.</li><li>Reprehenderit incididunt.</li><li>Quis voluptate irure.</li><li>Aliquip ipsum.</li><li>Velit enim amet.</li><li>Qui ea ut reprehenderit.</li><li>Anim nostrud eu laboris.</li><li>Nostrud laborum.</li><li>Do proident.</li><li>Eiusmod ipsum anim commodo.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 42,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/c252b064-f550-4f4b-beb3-940e84136381.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 43,
-    "name": "Exercitation ea quis.",
-    "author": "Miranda Bradley",
-    "category": "Fiction",
-    "price": 29.04,
-    "discount": 1,
-    "rating": 4,
-    "isbn": "9783598215967",
-    "publisher": "Hebert Guthrie",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Ipsum ut velit officia.</li><li>Tempor et.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/1a8de770-097c-4813-9277-3bbf722a82f4.jpg",
+    "name": "Cupidatat ullamco aute nisi.",
+    "author": "Tate Fields",
+    "category": "Politic",
+    "price": 12.38,
+    "discount": 6,
+    "rating": 3,
+    "isbn": "9783598215948",
+    "publisher": "Mcgee Barrett",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Ad pariatur.</li><li>Occaecat nulla ea duis.</li><li>Sunt aute quis laboris.</li><li>Proident culpa.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 43,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/a224e05a-f1f5-4dff-8112-3a873cf5f607.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 44,
-    "name": "Dolore sit ullamco aliquip duis.",
-    "author": "Wendi Salazar",
+    "name": "Proident culpa ex voluptate.",
+    "author": "Luna Sweeney",
     "category": "Computing",
-    "price": 25.55,
-    "discount": 2,
-    "rating": 4,
-    "isbn": "9783598215920",
-    "publisher": "Hayes Mckenzie",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Commodo excepteur cupidatat.</li><li>Officia cupidatat incididunt.</li><li>Exercitation minim consequat et.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/292691f9-e6cd-4d4a-8af1-094c2578a065.jpg",
+    "price": 24.26,
+    "discount": 10,
+    "rating": 3,
+    "isbn": "9783598215915",
+    "publisher": "Yvonne Garrison",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Aliqua proident aliqua incididunt.</li><li>Voluptate consequat sit.</li><li>Tempor ut laborum velit.</li><li>Occaecat et.</li><li>Exercitation proident.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 44,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/f7115add-a042-462e-908e-a338087f51d1.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 45,
-    "name": "Lorem magna proident esse cillum.",
-    "author": "Burgess Snyder",
-    "category": "Business",
-    "price": 15.78,
-    "discount": 8,
-    "rating": 3,
-    "isbn": "9783598215958",
-    "publisher": "Fuller Black",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Veniam ea laborum non.</li><li>Quis labore fugiat nisi.</li><li>Elit do.</li><li>Magna ex non id.</li><li>Ut amet duis sunt.</li><li>Incididunt aute velit.</li><li>Dolore irure.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/95ed731e-c594-49ef-8447-1148c466dd01.jpg",
+    "name": "Ut est.",
+    "author": "Larson Newman",
+    "category": "Politic",
+    "price": 8.77,
+    "discount": 3,
+    "rating": 4,
+    "isbn": "9783598215970",
+    "publisher": "Briggs Gross",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Enim laboris mollit.</li><li>Qui ad exercitation est.</li><li>Nisi sunt quis magna.</li><li>Enim aliqua fugiat enim.</li><li>Commodo veniam.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 45,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/13d799be-0398-4bdc-96ed-dcafa50fe0cb.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 46,
-    "name": "In est labore esse do.",
-    "author": "Dorothea Rodriguez",
-    "category": "Computing",
-    "price": 18.01,
-    "discount": 4,
-    "rating": 2,
-    "isbn": "9783598215953",
-    "publisher": "Roxie Paul",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Magna nulla do.</li><li>Cillum ipsum aliquip voluptate.</li><li>Non excepteur.</li><li>Elit ut.</li><li>Sit proident aliqua quis.</li><li>Quis labore laborum.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/d7d7e28a-fad5-4230-949e-ecd270fb847f.jpg",
+    "name": "Nisi velit laboris mollit eu.",
+    "author": "Stevenson Hanson",
+    "category": "Science",
+    "price": 10.55,
+    "discount": 6,
+    "rating": 4,
+    "isbn": "9783598215918",
+    "publisher": "Candice Matthews",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Ea velit do culpa.</li><li>Nisi est laborum labore.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 46,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/f83ac19d-1aba-460e-b89e-cc630610a768.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 47,
-    "name": "Incididunt proident.",
-    "author": "Alicia Mack",
-    "category": "Computing",
-    "price": 27.33,
-    "discount": 4,
-    "rating": 3,
-    "isbn": "9783598215959",
-    "publisher": "Graves Freeman",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Sint tempor tempor dolor.</li><li>Incididunt anim.</li><li>Aute eu.</li><li>Duis laboris exercitation sit.</li><li>Id officia.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/30b547d9-e4db-4377-ae9c-8529f5ad269b.jpg",
+    "name": "Consectetur proident non sint.",
+    "author": "Kelley Kirk",
+    "category": "Science",
+    "price": 7.73,
+    "discount": 2,
+    "rating": 2,
+    "isbn": "9783598215987",
+    "publisher": "Manuela Williams",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Nisi duis.</li><li>Do fugiat.</li><li>Nostrud ea irure.</li><li>Consequat incididunt.</li><li>Ex aliquip est.</li><li>Esse Lorem nulla.</li><li>Eiusmod ipsum tempor pariatur.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 47,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/140acd40-7d96-434b-b04a-2014cbdf11de.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 48,
-    "name": "Eu enim.",
-    "author": "Harmon Eaton",
-    "category": "Art & Photography",
-    "price": 22.23,
-    "discount": 2,
-    "rating": 2,
-    "isbn": "9783598215948",
-    "publisher": "Stefanie York",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Ad elit non ea.</li><li>Non mollit enim aliquip.</li><li>Amet esse voluptate.</li><li>Aute id nisi.</li><li>Fugiat reprehenderit.</li><li>Consectetur laborum.</li><li>Est non.</li><li>Amet officia labore.</li><li>Veniam fugiat.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/d6c51870-ca0e-4154-8ce6-776331abdfc2.jpg",
+    "name": "Sint do.",
+    "author": "Jill Washington",
+    "category": "Business",
+    "price": 16.87,
+    "discount": 10,
+    "rating": 1,
+    "isbn": "9783598215945",
+    "publisher": "Manning Hopper",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Deserunt incididunt.</li><li>Et excepteur voluptate occaecat.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 48,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/cf2ffeec-3920-4b03-8220-ca22912ab2f9.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   },
   {
     "bookId": 49,
-    "name": "Ad sint.",
-    "author": "Darcy Flowers",
-    "category": "Pyschology",
-    "price": 28.14,
-    "discount": 1,
-    "rating": 2,
-    "isbn": "9783598215938",
-    "publisher": "Pruitt Hutchinson",
-    "releaseDate": "05-01-2022",
-    "description": "<ul><li>Incididunt consectetur sit ex.</li><li>Nisi aliquip exercitation.</li><li>Veniam consequat sit sunt.</li></ul>",
-    "avatar": "https://images-na.ssl-images-amazon.com/images/I/233fc908-b230-4958-b69e-e6b37d0bfbf1.jpg",
+    "name": "Aliqua non amet aute non.",
+    "author": "Mallory Gutierrez",
+    "category": "Business",
+    "price": 29.38,
+    "discount": 7,
+    "rating": 5,
+    "isbn": "9783598215921",
+    "publisher": "Key Fowler",
+    "releaseDate": "09-01-2022",
+    "description": "<ul><li>Adipisicing cillum.</li><li>Ipsum sit culpa magna.</li><li>Sit commodo.</li><li>Qui officia aliqua.</li><li>Voluptate enim consectetur tempor.</li><li>Id dolor.</li><li>Eu ea magna.</li><li>Quis quis.</li><li>Et commodo dolore occaecat.</li><li>Consectetur aliquip sunt.</li></ul>",
+    "avatar": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg",
     "preview": [
       {
         "previewBookId": 49,
-        "photo": "https://images-na.ssl-images-amazon.com/images/I/1d566444-3784-43bd-b44c-794da5507718.jpg"
+        "photo": "https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg"
       }
     ]
   }
