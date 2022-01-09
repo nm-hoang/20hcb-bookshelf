@@ -1,4 +1,4 @@
-import { CartItem } from '../models';
+import { CartItem } from "../api/models";
 
 export const moneyAfterDiscount =
   (money: number, discount?: number) => money - (money * discount!) / 100;

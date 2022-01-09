@@ -3,7 +3,7 @@ import { CartItem } from '../models';
 export const CartData: CartItem[] = [
   {
     quantity: 4,
-    bookid: 2,
+    bookId: 2,
     avatar: 'https://cdn-amz.fadoglobal.io/images/I/910ityjoncL.jpg',
     name: 'HarryPotter',
     price: 120,
@@ -12,7 +12,7 @@ export const CartData: CartItem[] = [
   },
   {
     quantity: 2,
-    bookid: 1,
+    bookId: 1,
     avatar: 'https://cdn-amz.fadoglobal.io/images/I/910ityjoncL.jpg',
     name: 'HarryPotter',
     price: 90,

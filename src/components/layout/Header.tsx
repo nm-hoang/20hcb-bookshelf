@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Col, Row, Typography, Space, Avatar } from 'antd';
 import { Link } from 'react-router-dom';
-import { PageUrl } from '../../models';
+import { PageUrl } from '../../api/models';
 import { ShoppingCartOutlined, ShopTwoTone } from '@ant-design/icons';
 
 const { Title } = Typography;

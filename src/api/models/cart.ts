@@ -1,6 +1,6 @@
 export interface CartItem {
   quantity?: number;
-  bookid?: number;
+  bookId?: number;
   avatar?: string;
   name?: string;
   price?: number;

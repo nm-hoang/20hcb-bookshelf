@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Checkbox, Row, Card, Typography, Button, Image, Space } from 'antd';
-import { CartItem, PageUrl } from '../../../models';
+import { CartItem, PageUrl } from '../../../api/models';
 import Money from '../../../components/common/Money';
 import { DeleteOutlined, MinusOutlined, PlusOutlined } from '@ant-design/icons';
 import { moneyAfterDiscount, moneyItemSummarize } from '../../../helpers/money';
@@ -21,7 +21,7 @@ function CartComponent(props: CartItemProps): JSX.Element {
 	const { item, handleIncreaseItem, handleDecreaseItem, handleModalRemoveItem } = props;
 	const dispatch = useAppDispatch();
 	const handleOnChangeCheckbox = () => {
-		dispatch(setSelectedItem(item?.bookid!));
+		dispatch(setSelectedItem(item?.bookId!));
 	};
 	return (
 		<Card style={{ width: '100%' }}>
@@ -31,7 +31,7 @@ function CartComponent(props: CartItemProps): JSX.Element {
 						<Checkbox checked={item.checked} onChange={handleOnChangeCheckbox} />
 						<Image className="border-10" width={60} src={item.avatar} />
 						<Space size={8} direction="vertical" className="d-flex" style={{ marginTop: '-50%' }}>
-							<Link to={`${PageUrl.BOOK}/${item?.bookid!}`}>
+							<Link to={`${PageUrl.BOOK}/${item?.bookId!}`}>
 								<Title level={5} className="mb-0">
 									{item.name}
 								</Title>
@@ -49,17 +49,17 @@ function CartComponent(props: CartItemProps): JSX.Element {
 						</Title>
 						<Space direction="vertical" className="d-flex align-flex-end">
 							<Button
-								onClick={() => handleModalRemoveItem(item?.bookid!)}
+								onClick={() => handleModalRemoveItem(item?.bookId!)}
 								type="text"
 								icon={<DeleteOutlined />}
 							/>
 							<Space>
 								<Button
-									onClick={() => handleDecreaseItem(item?.bookid!)}
+									onClick={() => handleDecreaseItem(item?.bookId!)}
 									icon={<MinusOutlined />}
 								/>
 								<Button>{item?.quantity!}</Button>
-								<Button onClick={() => handleIncreaseItem(item?.bookid!)} icon={<PlusOutlined />} />
+								<Button onClick={() => handleIncreaseItem(item?.bookId!)} icon={<PlusOutlined />} />
 							</Space>
 						</Space>
 					</Space>

@@ -17,7 +17,7 @@ import ModalRemoveAll from '../components/ModalRemoveAll';
 import { moneyCartSummarize } from '../../../helpers/money';
 import Money from '../../../components/common/Money';
 import { Link } from 'react-router-dom';
-import { PageUrl } from '../../../models';
+import { PageUrl } from '../../../api/models';
 
 const { Title } = Typography;
 
@@ -103,7 +103,7 @@ function Cart(): JSX.Element {
 								cart?.map((item) => {
 									return (
 										<CartComponent
-											key={item.bookid}
+											key={item.bookId}
 											item={item}
 											handleIncreaseItem={handleIncreaseItem}
 											handleDecreaseItem={handleDecreaseItem}

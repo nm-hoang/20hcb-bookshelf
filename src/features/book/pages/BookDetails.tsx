@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Col, Row, Image, Space, Typography, Rate, Tag, Button, InputNumber } from 'antd';
 import { useParams } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
-import { CartItem } from '../../../models';
+import { CartItem } from "../../../api/models";
 import { FundProjectionScreenOutlined, PlusCircleOutlined } from '@ant-design/icons';
 import CommentItem from '../components/CommentItem';
 import { useAppDispatch, useAppSelector } from '../../../app/hooks';
@@ -16,13 +16,13 @@ const { Title, Text } = Typography;
 
 function BookDetails(): JSX.Element {
 	interface ParamTypes {
-		bookid: string;
+		bookId: string;
 	}
 	const dispatch = useAppDispatch();
-	let { bookid } = useParams<ParamTypes>();
+	let { bookId } = useParams<ParamTypes>();
 	useEffect(() => {
-		dispatch(getBookById(Number.parseInt(bookid)));
-	}, [dispatch, bookid]);
+		dispatch(getBookById(Number.parseInt(bookId)));
+	}, [dispatch, bookId]);
 
 	const bookItem = useAppSelector(selectSingleBook);
 	const listComments = useAppSelector(selectListComments);
@@ -34,7 +34,7 @@ function BookDetails(): JSX.Element {
 	const handleClickAddToCart = () => {
 		const item: CartItem = {
 			quantity: quantityItemSelect,
-			bookid: bookItem?.bookid!,
+			bookId: bookItem?.bookId!,
       avatar: bookItem?.avatar!,
 			name: bookItem?.name!,
 			price: bookItem?.price!,
@@ -51,7 +51,7 @@ function BookDetails(): JSX.Element {
 			/>
 			<Row justify="space-around">
 				<Col>
-					<Image width={500} src={bookItem?.avatar!} />
+					<Image width={500} src={bookItem?.avatar} />
 				</Col>
 				<Col md={20} lg={10}>
 					<Space direction="vertical" size={35}>
@@ -60,7 +60,7 @@ function BookDetails(): JSX.Element {
 								<Title level={2} className="text-blue-6 mb-0">
 									{bookItem?.name!}
 								</Title>
-								<Rate value={4} disabled={true}></Rate>
+								<Rate value={4} disabled={true}/>
 							</Space>
 							<Title level={4} type="secondary">
 								{`by ${bookItem?.author!}`}
@@ -69,7 +69,7 @@ function BookDetails(): JSX.Element {
 						<Space direction="vertical">
 							<Space direction="horizontal" size={20}>
 								<Title level={1} className="text-blue-6 mb-0">
-									<Money money={moneyAfterDiscount(bookItem?.price!, bookItem?.discount!)} />
+									<Money money={moneyAfterDiscount(bookItem?.price!, bookItem?.discount)} />
 								</Title>
 								<Space>
 									<Title level={3} type="secondary" delete className="mb-0">
@@ -84,7 +84,7 @@ function BookDetails(): JSX.Element {
 								</Col>
 								<Col span={12}>
 									<Title level={5} className="text-normal">
-										{bookItem?.daterelease!}
+										{bookItem?.releaseDate!}
 									</Title>
 								</Col>
 							</Row>
@@ -147,7 +147,7 @@ function BookDetails(): JSX.Element {
 							<Title level={4}>Comments: </Title>
 							{listComments?.length! > 0 &&
 								listComments?.map((comment) => {
-									return <CommentItem comment={comment} key={comment.commentid} />;
+									return <CommentItem comment={comment} key={comment.commentId} />;
 								})}
 						</Space>
 					</Space>

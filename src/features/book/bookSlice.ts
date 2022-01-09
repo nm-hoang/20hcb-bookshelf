@@ -1,17 +1,14 @@
 import {
-  // AnyAction,
-  createSlice,
-  PayloadAction,
-  // createAsyncThunk
-} from '@reduxjs/toolkit';
+  createSlice, PayloadAction
+} from "@reduxjs/toolkit";
 import {
   State,
   Book,
-  Comment
-} from '../../models';
+  Comment,
+} from "../../api/models";
 import { RootState } from '../../app/store';
-import { ListBooks } from '../../data/book';
-import { ListComments } from '../../data/comment';
+import { ListBooks } from '../../api/data/book';
+import { comments } from "../../api/data/comment";
 
 interface BookState extends State<Book> {
   comments?: Comment[];
@@ -21,7 +18,7 @@ const initialState: BookState = {
   requesting: false,
   success: false,
   list: ListBooks,
-  comments: ListComments
+  comments,
 };
 
 const bookSlice = createSlice({
@@ -29,7 +26,7 @@ const bookSlice = createSlice({
   initialState,
   reducers: {
     getBookById(state, action: PayloadAction<number>) {
-      state.single = state?.list!.find(list => list.bookid === action.payload);
+      state.single = state?.list!.find(list => list.bookId === action.payload);
     }
   },
   extraReducers: ((builder) => {
