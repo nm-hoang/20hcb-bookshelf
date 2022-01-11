@@ -6,7 +6,7 @@ export const ListBooks: Book[] = [
     name: 'Harlem Shuffle',
     author: 'Colson Whitehead',
     category: 'Bussiness',
-    price: 100000,
+    price: 100,
     discount: 10,
     rating: 4,
     isbn: '1788395549',

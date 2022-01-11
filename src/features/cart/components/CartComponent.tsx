@@ -30,7 +30,7 @@ function CartComponent(props: CartItemProps): JSX.Element {
 					<Space size={10}>
 						<Checkbox checked={item.checked} onChange={handleOnChangeCheckbox} />
 						<Image className="border-10" width={60} src={item.avatar} />
-						<Space size={8} direction="vertical" className="d-flex" style={{ marginTop: '-50%' }}>
+						<Space size={8} direction="vertical" className="d-flex" style={{ marginTop: '-25%' }}>
 							<Link to={`${PageUrl.BOOK}/${item?.bookId!}`}>
 								<Title level={5} className="mb-0">
 									{item.name}

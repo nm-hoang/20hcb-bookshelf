@@ -2,11 +2,16 @@ import React, { useEffect, useState } from 'react';
 import { Col, Row, Image, Space, Typography, Rate, Tag, Button, InputNumber } from 'antd';
 import { useParams } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
-import { CartItem } from "../../../api/models";
+import { CartItem } from '../../../api/models';
 import { FundProjectionScreenOutlined, PlusCircleOutlined } from '@ant-design/icons';
 import CommentItem from '../components/CommentItem';
 import { useAppDispatch, useAppSelector } from '../../../app/hooks';
-import { selectListComments, getBookById, selectSingleBook } from '../bookSlice';
+import {
+	selectListComments,
+	getBookById,
+	selectSingleBook,
+	getCommentByBookId,
+} from '../bookSlice';
 import ModalPreview from '../components/ModalPreview';
 import Money from '../../../components/common/Money';
 import { addToCart } from '../../cart/cartSlice';
@@ -22,6 +27,7 @@ function BookDetails(): JSX.Element {
 	let { bookId } = useParams<ParamTypes>();
 	useEffect(() => {
 		dispatch(getBookById(Number.parseInt(bookId)));
+		dispatch(getCommentByBookId(Number.parseInt(bookId)));
 	}, [dispatch, bookId]);
 
 	const bookItem = useAppSelector(selectSingleBook);
@@ -35,10 +41,11 @@ function BookDetails(): JSX.Element {
 		const item: CartItem = {
 			quantity: quantityItemSelect,
 			bookId: bookItem?.bookId!,
-      avatar: bookItem?.avatar!,
-			name: bookItem?.name!,
+			avatar: bookItem?.avatar!,
+			name: bookItem?.name!,  
 			price: bookItem?.price!,
 			discount: bookItem?.discount!,
+			checked: true,
 		};
 		dispatch(addToCart(item));
 	};
@@ -60,7 +67,7 @@ function BookDetails(): JSX.Element {
 								<Title level={2} className="text-blue-6 mb-0">
 									{bookItem?.name!}
 								</Title>
-								<Rate value={4} disabled={true}/>
+								<Rate value={4} disabled={true} />
 							</Space>
 							<Title level={4} type="secondary">
 								{`by ${bookItem?.author!}`}

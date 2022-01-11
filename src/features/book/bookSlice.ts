@@ -18,7 +18,7 @@ const initialState: BookState = {
   requesting: false,
   success: false,
   list: ListBooks,
-  comments,
+  comments: [],
 };
 
 const bookSlice = createSlice({
@@ -27,6 +27,9 @@ const bookSlice = createSlice({
   reducers: {
     getBookById(state, action: PayloadAction<number>) {
       state.single = state?.list!.find(list => list.bookId === action.payload);
+    },
+    getCommentByBookId(state, action: PayloadAction<number>) {
+      state.comments = comments.filter(list => list.bookId === action.payload);
     }
   },
   extraReducers: ((builder) => {
@@ -34,7 +37,7 @@ const bookSlice = createSlice({
   }),
 });
 
-export const { getBookById } = bookSlice.actions;
+export const { getBookById, getCommentByBookId } = bookSlice.actions;
 
 export const selectListBooks = (state: RootState) => state.book.list;
 export const selectListComments = (state: RootState) => state.book.comments;

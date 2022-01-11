@@ -6,27 +6,36 @@ import { ClientRoute } from './components/common/ClientRoute';
 import Homepage from './features/home/pages';
 import BookDetails from './features/book/pages/BookDetails';
 import Cart from './features/cart/pages/Cart';
+import { PageUrl } from './api/models';
+import PaymentInformation from './features/order/pages/PaymentInformation';
+import OrderSuccess from './features/order/pages/OrderSuccess';
 
 function App() {
-	return (
-		<>
-			<BrowserRouter>
-				<Switch>
-          <ClientRoute path="/book/:bookid">
-						<BookDetails />
-					</ClientRoute>
-          <ClientRoute path="/cart">
-						<Cart />
-					</ClientRoute>
-					<ClientRoute path="/">
-						<Homepage />
-					</ClientRoute>
-					<PrivateRoute path="/admin">{/* <Admin /> */}</PrivateRoute>
-					<Route>{/* <NotFound /> */}</Route>
-				</Switch>
-			</BrowserRouter>
-		</>
-	);
+  return (
+    <>
+      <BrowserRouter>
+        <Switch>
+          <ClientRoute path={`${PageUrl.BOOK}/:bookId`}>
+            <BookDetails />
+          </ClientRoute>
+          <ClientRoute path={PageUrl.CART}>
+            <Cart />
+          </ClientRoute>
+          <ClientRoute path={PageUrl.CHECKOUT}>
+            <PaymentInformation />
+          </ClientRoute>
+          <ClientRoute path={PageUrl.CHECKOUT_SUCCESS}>
+            <OrderSuccess />
+          </ClientRoute>
+          <ClientRoute exact path={PageUrl.HOMEPAGE}>
+            <Homepage />
+          </ClientRoute>
+          <PrivateRoute path="/admin">{/* <Admin /> */}</PrivateRoute>
+          <Route>{/* <NotFound /> */}</Route>
+        </Switch>
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default App;

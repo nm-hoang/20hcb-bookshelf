@@ -5,9 +5,9 @@ export const CartData: CartItem[] = [
     quantity: 4,
     bookId: 2,
     avatar: 'https://cdn-amz.fadoglobal.io/images/I/910ityjoncL.jpg',
-    name: 'HarryPotter',
-    price: 120,
-    discount: 12,
+    name: 'Sunt amet est pariatur.',
+    price: 9.68,
+    discount: 2,
     checked: true
   },
   {
@@ -15,8 +15,8 @@ export const CartData: CartItem[] = [
     bookId: 1,
     avatar: 'https://cdn-amz.fadoglobal.io/images/I/910ityjoncL.jpg',
     name: 'HarryPotter',
-    price: 90,
-    discount: 12,
+    price: 100,
+    discount: 10,
     checked: false
   }
 ];

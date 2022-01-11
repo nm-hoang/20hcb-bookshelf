@@ -80,66 +80,75 @@ function Cart(): JSX.Element {
 						confirmRemoveAll={confirmRemoveAll}
 						setVisibleRemoveAll={setVisibleRemoveAll}
 					/>
-					<Space size={50} wrap className="d-flex justify-center align-items-flex-start">
-						<Space style={{ width: 750 }} direction="vertical" size={15}>
-							<Card style={{ width: '100%' }}>
-								<Row>
-									<Col span={12}>
-										<Checkbox checked={checkAll} onChange={handleOnChangeCheckAll}>
-											<Title level={5} className="text-normal" type="secondary">
-												Select all
-											</Title>
-										</Checkbox>
+					<Space direction="vertical" size={30} wrap className="d-flex">
+						<Row>
+							<Col push={3}>
+								<Title level={1} type="secondary">
+									Cart
+								</Title>
+							</Col>
+						</Row>
+						<Space direction="horizontal" className="d-flex justify-center align-items-flex-start" size={30}>
+							<Space style={{ width: 750 }} direction="vertical" size={15}>
+								<Card style={{ width: '100%' }}>
+									<Row>
+										<Col span={12}>
+											<Checkbox checked={checkAll} onChange={handleOnChangeCheckAll}>
+												<Title level={5} className="text-normal" type="secondary">
+													Select all
+												</Title>
+											</Checkbox>
+										</Col>
+										<Col span={12} className="d-flex justify-flex-end">
+											<Button type="text" onClick={() => setVisibleRemoveAll(true)}>
+												Delete all
+												<DeleteOutlined />
+											</Button>
+										</Col>
+									</Row>
+								</Card>
+								{cart?.length! > 0 &&
+									cart?.map((item) => {
+										return (
+											<CartComponent
+												key={item.bookId}
+												item={item}
+												handleIncreaseItem={handleIncreaseItem}
+												handleDecreaseItem={handleDecreaseItem}
+												handleModalRemoveItem={handleModalRemoveItem}
+											/>
+										);
+									})}
+							</Space>
+							<Card style={{ width: 400 }} className="text-align-center">
+								<Row gutter={[30, 30]}>
+									<Col span={24}>
+										<Row justify="space-between" style={{ width: '100%' }}>
+											<Col>
+												<Title level={5}>Items subtotal:</Title>
+											</Col>
+											<Col>
+												<Title level={5}>
+													<Money money={moneyCartSummarize(cart!)} />
+												</Title>
+											</Col>
+										</Row>
 									</Col>
-									<Col span={12} className="d-flex justify-flex-end">
-										<Button type="text" onClick={() => setVisibleRemoveAll(true)}>
-											Delete all
-											<DeleteOutlined />
-										</Button>
+									<Col span={24}>
+										<Link to={PageUrl.CHECKOUT}>
+											<Button
+												disabled={cart?.every((item) => item.checked !== true)}
+												size="large"
+												type="primary"
+												style={{ width: '60%' }}
+											>
+												Checkout
+											</Button>
+										</Link>
 									</Col>
 								</Row>
 							</Card>
-							{cart?.length! > 0 &&
-								cart?.map((item) => {
-									return (
-										<CartComponent
-											key={item.bookId}
-											item={item}
-											handleIncreaseItem={handleIncreaseItem}
-											handleDecreaseItem={handleDecreaseItem}
-											handleModalRemoveItem={handleModalRemoveItem}
-										/>
-									);
-								})}
 						</Space>
-						<Card style={{ width: 400 }} className="text-align-center">
-							<Row gutter={[30, 30]}>
-								<Col span={24}>
-									<Row justify="space-between" style={{ width: '100%' }}>
-										<Col>
-											<Title level={5}>Items subtotal:</Title>
-										</Col>
-										<Col>
-											<Title level={5}>
-												<Money money={moneyCartSummarize(cart!)} />
-											</Title>
-										</Col>
-									</Row>
-								</Col>
-								<Col span={24}>
-									<Link to={PageUrl.CHECKOUT}>
-										<Button
-											disabled={cart?.every((item) => item.checked !== true)}
-											size="large"
-											type="primary"
-											style={{ width: '60%' }}
-										>
-											Checkout
-										</Button>
-									</Link>
-								</Col>
-							</Row>
-						</Card>
 					</Space>
 				</>
 			) : (
