@@ -4,8 +4,8 @@ export interface Book {
   author: string;
   category: string;
   price: number;
-  discount?: number;
-  rating?: number;
+  discount: number;
+  rating: number;
   isbn?: string;
   publisher: string;
   releaseDate: string;
