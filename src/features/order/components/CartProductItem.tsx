@@ -2,7 +2,7 @@ import { Card, Image, Space, Typography } from 'antd';
 import React from 'react';
 import { CartItem } from '../../../api/models';
 import Money from '../../../components/common/Money';
-import { moneyItemSummarize } from '../../../helpers/money';
+import { moneyAfterDiscount, moneyItemSummarize } from '../../../helpers/money';
 
 interface CartProductItemProps {
   item: CartItem;
@@ -22,7 +22,7 @@ function CardProductItem(props: CartProductItemProps): JSX.Element {
               <Space direction="vertical">
                 <Title level={5}>{`${item.name} x ${item.quantity}`}</Title>
                 <Title level={5} type="secondary">
-                  <Money money={item.price} />
+                  <Money money={moneyAfterDiscount(item.price, item.discount)} />
                 </Title>
               </Space>
             </Space>
