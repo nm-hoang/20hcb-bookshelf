@@ -7,7 +7,7 @@ export function ClientRoute(props: RouteProps) {
 	return (
 		<>
 			<HeaderComponent />
-			<div className="bg-white" style={{ minHeight: '50vh', padding: '10px 22px 60px 22px' }}>
+			<div className="bg-white" style={{ minHeight: '50vh' }}>
 				<Route {...props} />
 			</div>
 			<FooterComponent />

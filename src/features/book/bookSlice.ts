@@ -7,7 +7,7 @@ import {
   Comment,
 } from "../../api/models";
 import { RootState } from '../../app/store';
-import { ListBooks } from '../../api/data/book';
+import { mockBooks } from '../../api/data/book';
 import { comments } from "../../api/data/comment";
 
 interface BookState extends State<Book> {
@@ -17,7 +17,7 @@ interface BookState extends State<Book> {
 const initialState: BookState = {
   requesting: false,
   success: false,
-  list: ListBooks,
+  list: mockBooks,
   comments: [],
 };
 

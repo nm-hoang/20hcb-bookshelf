@@ -1,18 +1,80 @@
 .mb-0 {
-	margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 .mb-auto {
-	margin-bottom: auto !important;
+  margin-bottom: auto !important;
 }
 .my-1 {
-	margin-top: 0.25rem !important;
-	margin-bottom: 0.25rem !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
 }
 .my-auto {
-	margin-top: auto !important;
-	margin-bottom: auto !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 .mx-auto {
-	margin-left: auto !important;
-	margin-right: auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@mixin make-padding() {
+  $unit: rem;
+
+  @for $i from 0 through 12 {
+    .pt-#{$i} {
+      padding-top: $i + $unit;
+    }
+
+    .pb-#{$i} {
+      padding-bottom: $i + $unit;
+    }
+
+    .pl-#{$i} {
+      padding-left: $i + $unit;
+    }
+
+    .pl-#{$i}o2 {
+      padding-left: ($i / 2) + $unit;
+    }
+
+    .pr-#{$i} {
+      padding-right: $i + $unit;
+    }
+
+    .px-#{$i} {
+      padding-left: $i + $unit;
+      padding-right: $i + $unit;
+    }
+
+    .ml-#{$i} {
+      margin-left: $i + $unit !important;
+    }
+
+    .mr-#{$i} {
+      margin-right: $i + $unit !important;
+    }
+
+    .mt-#{$i} {
+      margin-top: $i + $unit;
+    }
+
+    .mb-#{$i} {
+      margin-bottom: $i + $unit;
+    }
+
+    .mb-#{$i}o2 {
+      margin-bottom: ($i / 2) + $unit !important;
+    }
+
+    .my-#{$i} {
+      margin-top: $i + $unit;
+      margin-bottom: $i + $unit;
+    }
+  }
+}
+
+@include make-padding();
+
+.text-end {
+  text-align: end;
 }
