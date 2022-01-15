@@ -1,29 +1,37 @@
 import {
-  createSlice,
-  PayloadAction,
+  createSlice, PayloadAction
 } from '@reduxjs/toolkit';
+import { listDistrict, listProvinces, listWards } from '../../api/data/location';
 import {
-  State,
-  Order,
-  CartItem
+  District, Order, Province, State, Ward
 } from '../../api/models';
 import { RootState } from '../../app/store';
-import { CartData } from '../../api/data/cart';
-import Notify from '../../helpers/notify';
 
 interface CartState extends State<Order> {
+  listProvinces: Province[],
+  listDistrict: District[],
+  listWards: Ward[];
 }
 
 const initialState: CartState = {
   requesting: false,
   success: false,
+  listProvinces,
+  listDistrict: [],
+  listWards: []
 };
 
 const orderSlice = createSlice({
   name: 'order',
   initialState,
   reducers: {
-
+    chooseProvince(state, action: PayloadAction<number>) {
+      state.listDistrict = listDistrict.filter(list => list.provinceId === action.payload);
+      state.listWards = [];
+    },
+    chooseDistrict(state, action: PayloadAction<number>) {
+      state.listWards = listWards.filter(list => list.districtId === action.payload);
+    }
   },
   extraReducers: ((builder) => {
 
@@ -31,5 +39,11 @@ const orderSlice = createSlice({
 });
 
 
-const cartReducer = orderSlice.reducer;
-export default cartReducer;
+export const { chooseProvince, chooseDistrict } = orderSlice.actions;
+
+const orderReducer = orderSlice.reducer;
+export const selectListProvinces = (state: RootState) => state.order.listProvinces;
+export const selectListDistrict = (state: RootState) => state.order.listDistrict;
+export const selectListWards = (state: RootState) => state.order.listWards;
+
+export default orderReducer;
