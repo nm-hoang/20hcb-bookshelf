@@ -10,37 +10,41 @@ export const listProvinces: Province[] = [
     provinceId: 2,
     provinceName: 'Hà Nội'
   },
+  {
+    provinceId: 3,
+    provinceName: 'Đà lạt'
+  },
 ];
 
 export const listDistrict: District[] = [
   {
     "districtId": 1,
     "provinceId": 1,
-    "districtName": "District 1"
+    "districtName": "Tan Binh District"
   },
   {
     "districtId": 2,
-    "provinceId": 2,
+    "provinceId": 1,
     "districtName": "District 2"
   },
   {
     "districtId": 3,
-    "provinceId": 3,
+    "provinceId": 1,
     "districtName": "District 3"
   },
   {
     "districtId": 4,
-    "provinceId": 4,
+    "provinceId": 1,
     "districtName": "District 4"
   },
   {
     "districtId": 5,
-    "provinceId": 5,
+    "provinceId": 1,
     "districtName": "District 5"
   },
   {
     "districtId": 6,
-    "provinceId": 6,
+    "provinceId": 1,
     "districtName": "District 6"
   },
   {
@@ -75,37 +79,37 @@ export const listDistrict: District[] = [
   },
   {
     "districtId": 13,
-    "provinceId": 13,
+    "provinceId": 4,
     "districtName": "Thu Duc City"
   },
   {
     "districtId": 14,
-    "provinceId": 14,
+    "provinceId": 1,
     "districtName": "Binh Tan District"
   },
   {
     "districtId": 15,
-    "provinceId": 15,
+    "provinceId": 1,
     "districtName": "Binh Thanh District"
   },
   {
     "districtId": 16,
-    "provinceId": 16,
+    "provinceId": 1,
     "districtName": "Go Vap District"
   },
   {
     "districtId": 17,
-    "provinceId": 17,
+    "provinceId": 1,
     "districtName": "Phu Nhuan District"
   },
   {
     "districtId": 18,
-    "provinceId": 18,
-    "districtName": "Tan Binh District"
+    "provinceId": 1,
+    "districtName": "District 1"
   },
   {
     "districtId": 19,
-    "provinceId": 19,
+    "provinceId": 1,
     "districtName": "Tan Phu District"
   },
 ];

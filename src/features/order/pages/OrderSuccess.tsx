@@ -13,7 +13,7 @@ function OrderSuccess(): JSX.Element {
   return (
     <Result
       status="success"
-      className="border-with-shadow mx-auto card-result-custom"
+      className="border-with-shadow mx-auto card-result-custom mt-5"
       title="Your order is successfully !"
       extra={
         <Link to={PageUrl.HOMEPAGE}>

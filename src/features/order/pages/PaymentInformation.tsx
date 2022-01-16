@@ -12,7 +12,7 @@ const { Title } = Typography;
 function PaymentInformation(): JSX.Element {
   const cart = useAppSelector(selectCart);
   return (
-    <Space direction="vertical" size={30} wrap className="d-flex">
+    <Space direction="vertical" size={30} wrap className="d-flex mt-5">
       <Row>
         <Col push={3}>
           <Title level={1} type="secondary">

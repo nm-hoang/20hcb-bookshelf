@@ -59,3 +59,15 @@
     align-items: flex-end;
   }
 }
+.custom-checkbox {
+  display: flex !important;
+  flex-direction: column-reverse;
+  row-gap: 0.5rem;
+  align-items: center !important;
+}
+.custom-group-checkbox {
+  display: flex !important;
+  column-gap: 3rem;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}

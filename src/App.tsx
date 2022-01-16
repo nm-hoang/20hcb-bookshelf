@@ -9,11 +9,13 @@ import Cart from './features/cart/pages/Cart';
 import { PageUrl } from './api/models';
 import PaymentInformation from './features/order/pages/PaymentInformation';
 import OrderSuccess from './features/order/pages/OrderSuccess';
+import ScrollToTop from './components/common/ScrollToTop';
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Switch>
           <ClientRoute path={`${PageUrl.BOOK}/:bookId`}>
             <BookDetails />

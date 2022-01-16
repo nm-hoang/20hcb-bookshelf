@@ -1,20 +1,22 @@
-import React from 'react';
 import { Button, Card, Col, Rate, Row, Space, Tag, Typography } from 'antd';
+import React from 'react';
+import { useHistory } from 'react-router-dom';
 import { v4 } from 'uuid';
-import { getDiscountedPrice, redirectTo } from './home.utilities';
 import { Book, PageUrl } from '../../../api/models';
+import { getDiscountedPrice } from './home.utilities';
 
 export interface BooksSectionInterface {
-  title: string
-  books: Book[]
+  title: string;
+  books: Book[];
 }
 
 export function BooksSectionComponent(props: BooksSectionInterface): JSX.Element {
   const { title, books } = props;
-
+  const history = useHistory();
   const handleClickBook = (bookId: number) => {
-    return redirectTo(`${PageUrl.BOOK}/${bookId}`);
-  }
+    // return redirectTo(`${PageUrl.BOOK}/${bookId}`);
+    history.push(`${PageUrl.BOOK}/${bookId}`);
+  };
 
   return (
     <div className="mt-3">
@@ -31,10 +33,21 @@ export function BooksSectionComponent(props: BooksSectionInterface): JSX.Element
                 onClick={() => handleClickBook(item.bookId)}
               >
                 <div className="text-end">
-                  <Typography.Title level={5}>{item.name}</Typography.Title>
+                  <Typography.Title level={5}>
+                    <Typography.Paragraph
+                      ellipsis={{
+                        rows: 1,
+                        expandable: false,
+                      }}
+                      title="name"
+                    >
+                      {item.name}
+                    </Typography.Paragraph>
+                    {/* {item.name} */}
+                  </Typography.Title>
                   <Typography.Text>{`by ${item.author}`}</Typography.Text>
                   <div>
-                    <Rate value={item.rating} />
+                    <Rate value={item.rating} disabled={true} />
                   </div>
                   <div>
                     <Space align="center">
