@@ -29,7 +29,7 @@ export function BooksSectionComponent(props: BooksSectionInterface): JSX.Element
               <Card
                 className="rounded-5"
                 hoverable
-                cover={<img alt={item.name} src={item.avatar} />}
+                cover={<img alt={item.name} src={item.avatar} style={{height:'300px'}} />}
                 onClick={() => handleClickBook(item.bookId)}
               >
                 <div className="text-end">
@@ -46,6 +46,10 @@ export function BooksSectionComponent(props: BooksSectionInterface): JSX.Element
                     {/* {item.name} */}
                   </Typography.Title>
                   <Typography.Text>{`by ${item.author}`}</Typography.Text>
+                  <Space>
+                  <Typography.Title className="mb-0" level={5}>ISBN:</Typography.Title>
+                  <Typography.Text>{item.isbn}</Typography.Text>
+                  </Space>
                   <div>
                     <Rate value={item.rating} disabled={true} />
                   </div>

@@ -35,7 +35,7 @@ export const mockBooks: Book[] = [
     releaseDate: '15-01-2022',
     description:
       '<ul><li>Id consectetur aliqua.</li><li>Non fugiat in id.</li><li>Tempor nostrud eiusmod.</li><li>Fugiat incididunt laborum adipisicing.</li><li>Eiusmod excepteur.</li><li>Ipsum excepteur.</li><li>Ea reprehenderit officia est.</li><li>Ut ipsum aliquip.</li><li>Ullamco ullamco.</li><li>Eu consectetur.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://m.media-amazon.com/images/I/41gr3r3FSWL.jpg',
     preview: [
       {
         previewBookId: 2,
@@ -69,7 +69,7 @@ export const mockBooks: Book[] = [
     releaseDate: '15-01-2022',
     description:
       '<ul><li>Non sint.</li><li>Dolor commodo mollit deserunt.</li><li>Eu dolor.</li><li>Cillum quis.</li><li>Aliqua nostrud magna eu.</li><li>Velit et.</li><li>Ex nisi.</li><li>Nulla dolore.</li><li>Deserunt ad.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://m.media-amazon.com/images/I/51zSz5E2vAL.jpg',
     preview: [
       {
         previewBookId: 3,
@@ -102,7 +102,7 @@ export const mockBooks: Book[] = [
     publisher: 'Williams Fuller',
     releaseDate: '15-01-2022',
     description: '<ul><li>Esse excepteur mollit incididunt.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://static-cse.canva.com/blob/142530/Pink-and-Black-Grunge-Creative-Wattpad-Book-Cover.jpg',
     preview: [
       {
         previewBookId: 4,
@@ -135,7 +135,7 @@ export const mockBooks: Book[] = [
     publisher: 'Betty Browning',
     releaseDate: '15-01-2022',
     description: '<ul><li>Adipisicing et.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://static-cse.canva.com/blob/142541/Yellow-Surgeon-Creative-Book-Cover.jpg',
     preview: [
       {
         previewBookId: 5,
@@ -169,7 +169,7 @@ export const mockBooks: Book[] = [
     releaseDate: '15-01-2022',
     description:
       '<ul><li>Exercitation occaecat ad.</li><li>Cupidatat laborum.</li><li>Sint sunt.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://blog.hubspot.com/hs-fs/hubfs/%5BAgency_Post%5D/goldfinch_cover.jpg?width=640&name=goldfinch_cover.jpg',
     preview: [
       {
         previewBookId: 6,
@@ -203,7 +203,7 @@ export const mockBooks: Book[] = [
     releaseDate: '15-01-2022',
     description:
       '<ul><li>Irure cupidatat ea.</li><li>Dolor velit.</li><li>Do consequat tempor laborum.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://s26162.pcdn.co/wp-content/uploads/2019/11/9781566895507_FC_89e4a017-872f-453c-bfd4-c209212f8600_1024x1024-661x1024.jpg',
     preview: [
       {
         previewBookId: 7,
@@ -236,7 +236,7 @@ export const mockBooks: Book[] = [
     publisher: 'Day Hopper',
     releaseDate: '15-01-2022',
     description: '<ul><li>Enim non commodo.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/02/attachment_80004080-e1488217702832.jpg',
     preview: [
       {
         previewBookId: 8,
@@ -269,7 +269,7 @@ export const mockBooks: Book[] = [
     publisher: 'Johnnie Brooks',
     releaseDate: '15-01-2022',
     description: '<ul><li>Occaecat nulla occaecat.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://images.squarespace-cdn.com/content/v1/58faa30ee6f2e151cda11af0/1521488932055-SHWMRFZ01445B44CIO39/Carmer+book+cover+art.jpg?format=1000w',
     preview: [
       {
         previewBookId: 9,
@@ -303,7 +303,7 @@ export const mockBooks: Book[] = [
     releaseDate: '15-01-2022',
     description:
       '<ul><li>Adipisicing occaecat pariatur.</li><li>Exercitation cupidatat.</li><li>Excepteur culpa.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91X-Ah3+6LL.jpg',
     preview: [
       {
         previewBookId: 10,
@@ -336,7 +336,7 @@ export const mockBooks: Book[] = [
     publisher: 'Tammi Beard',
     releaseDate: '15-01-2022',
     description: '<ul><li>Laborum anim.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://images-na.ssl-images-amazon.com/images/I/A1KCNDbF-7L.jpg',
     preview: [
       {
         previewBookId: 11,
@@ -370,7 +370,7 @@ export const mockBooks: Book[] = [
     releaseDate: '15-01-2022',
     description:
       '<ul><li>Dolor id.</li><li>Ea nisi cupidatat exercitation.</li><li>Lorem exercitation sit non.</li><li>Cupidatat qui velit laborum.</li><li>Ut in.</li><li>Reprehenderit esse aliqua.</li><li>Proident deserunt.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://images2.penguinrandomhouse.com/cover/9780525541622',
     preview: [
       {
         previewBookId: 12,
@@ -404,7 +404,7 @@ export const mockBooks: Book[] = [
     releaseDate: '15-01-2022',
     description:
       '<ul><li>Ad elit id pariatur.</li><li>Eiusmod do incididunt.</li><li>Mollit velit.</li><li>Consectetur reprehenderit.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://i.pinimg.com/736x/c6/2d/78/c62d78853a12cb3fd63ef5523c093129--book-cover-design-art-news.jpg',
     preview: [
       {
         previewBookId: 13,
@@ -438,7 +438,7 @@ export const mockBooks: Book[] = [
     releaseDate: '15-01-2022',
     description:
       '<ul><li>Culpa minim.</li><li>Excepteur occaecat.</li><li>Commodo laboris ad.</li><li>Velit sint anim enim.</li></ul>',
-    avatar: 'https://images-na.ssl-images-amazon.com/images/I/91Mj6CdzCgL.jpg',
+    avatar: 'https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501190117/the-family-upstairs-9781501190117_hr.jpg',
     preview: [
       {
         previewBookId: 14,
