@@ -1,4 +1,5 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import authReducer from '../features/auth/authSlice';
 import bookReducer from '../features/book/bookSlice';
 import cartSlice from '../features/cart/cartSlice';
 import orderReducer from '../features/order/orderSlice';
@@ -10,6 +11,7 @@ export const store = configureStore({
     book: bookReducer,
     cart: cartSlice,
     order: orderReducer,
+    auth: authReducer,
   },
 });
 

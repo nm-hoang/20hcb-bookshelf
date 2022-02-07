@@ -45,3 +45,10 @@ export interface State<T> {
   list?: T[];
   single?: T;
 }
+
+export enum StatusNotify {
+  success = 'SUCCESS',
+  warning = 'WARNING',
+  error = 'ERROR',
+  pending = 'PENDING'
+}

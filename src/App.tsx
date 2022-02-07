@@ -10,6 +10,8 @@ import { PageUrl } from './api/models';
 import PaymentInformation from './features/order/pages/PaymentInformation';
 import OrderSuccess from './features/order/pages/OrderSuccess';
 import ScrollToTop from './components/common/ScrollToTop';
+import Login from './features/auth/pages/Login';
+import Register from './features/auth/pages/Register';
 
 function App() {
   return (
@@ -31,6 +33,12 @@ function App() {
           </ClientRoute>
           <ClientRoute exact path={PageUrl.HOMEPAGE}>
             <Homepage />
+          </ClientRoute>
+          <ClientRoute exact path={PageUrl.LOGIN}>
+            <Login />
+          </ClientRoute>
+          <ClientRoute exact path={PageUrl.REGISTER}>
+            <Register />
           </ClientRoute>
           <PrivateRoute path="/admin">{/* <Admin /> */}</PrivateRoute>
           <Route>{/* <NotFound /> */}</Route>
