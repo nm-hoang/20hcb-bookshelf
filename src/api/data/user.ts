@@ -12,5 +12,17 @@ export const listUsers: User[] = [
     password: '123456',
     fullName: 'Daniel',
     role: UserRole.CLIENT
+  },
+  {
+    email: 'lotuhe@kellychibale-researchgroup-uct.com',
+    password: '123456',
+    fullName: 'PL',
+    role: UserRole.CLIENT
+  },
+  {
+    email: 'nmhoang.28@gmail.com',
+    password: '123456',
+    fullName: 'Hoang',
+    role: UserRole.CLIENT
   }
 ];

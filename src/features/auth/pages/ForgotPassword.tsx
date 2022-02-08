@@ -1,10 +1,40 @@
 import { Button, Card, Col, Form, Input, Row, Typography } from 'antd';
+import axios from 'axios';
 import React from 'react';
+import { StatusNotify } from '../../../api/models';
+import { useAppSelector } from '../../../app/hooks';
+import { FROM_NAME, SERVICE_ID, TEMPLATE_ID, USER_ID } from '../../../constants/mail';
+import Notify from '../../../helpers/notify';
+import { selectListUsers } from '../authSlice';
 
 const { Title } = Typography;
 
 function ForgotPassword() {
-  const handleFinish = (e: any) => {};
+  const listUsers = useAppSelector(selectListUsers);
+  const handleFinish = (e: any) => {
+    const TO_NAME = listUsers?.find((user) => user.email === e.email)?.fullName;
+    const data = {
+      service_id: SERVICE_ID,
+      template_id: TEMPLATE_ID,
+      user_id: USER_ID,
+      template_params: {
+        to_name: TO_NAME,
+        to_email: e.email,
+        from_name: FROM_NAME,
+      },
+    };
+    axios({
+      method: 'post',
+      url: 'https://api.emailjs.com/api/v1.0/email/send',
+      data,
+    })
+      .then(function (_response) {
+        Notify.success('The system has sent instructions to your email', StatusNotify.success);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
   return (
     <>
       <div style={{ minHeight: '60vh', padding: '10px 22px 60px 22px' }}>

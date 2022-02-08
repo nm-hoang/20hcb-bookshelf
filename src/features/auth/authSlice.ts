@@ -50,6 +50,11 @@ const authSlice = createSlice({
       state.single = undefined;
       state.loginStatus = 'idle';
       Notify.success('Logout successfuly !', StatusNotify.success);
+    },
+    changePassword(state, action: PayloadAction<User>) {
+      const index = state.list!.findIndex(list => list.email === action.payload.email);
+      state.list![index].password = action.payload.password;
+      Notify.success('Change password successfuly !', StatusNotify.success);
     }
   },
   extraReducers: ((builder) => {
@@ -57,9 +62,11 @@ const authSlice = createSlice({
   }),
 });
 
-export const { login, register, logout } = authSlice.actions;
+export const { login, register, logout, changePassword } = authSlice.actions;
 
 export const selectSingleUser = (state: RootState) => state.auth.single;
 export const selectStatusLogin = (state: RootState) => state.auth.loginStatus;
+export const selectListUsers = (state: RootState) => state.auth.list;
+
 const authReducer = authSlice.reducer;
 export default authReducer;

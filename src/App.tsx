@@ -13,6 +13,7 @@ import ScrollToTop from './components/common/ScrollToTop';
 import Login from './features/auth/pages/Login';
 import Register from './features/auth/pages/Register';
 import ForgotPassword from './features/auth/pages/ForgotPassword';
+import ResetPassword from './features/auth/pages/ResetPassword';
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
           </ClientRoute>
           <ClientRoute exact path={PageUrl.FORGOT_PASSWORD}>
             <ForgotPassword />
+          </ClientRoute>
+          <ClientRoute exact path={`${PageUrl.RESET_PASSWORD}/:email`}>
+            <ResetPassword />
           </ClientRoute>
           <PrivateRoute path="/admin">{/* <Admin /> */}</PrivateRoute>
           <Route>{/* <NotFound /> */}</Route>
