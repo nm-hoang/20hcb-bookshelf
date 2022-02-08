@@ -1,6 +1,7 @@
-import { Button, Card, Col, Form, Input, Row, Typography } from 'antd';
+import { Button, Card, Col, Form, Input, Row, Space, Typography } from 'antd';
 import React from 'react';
-import { StatusNotify } from '../../../api/models';
+import { Link } from 'react-router-dom';
+import { PageUrl, StatusNotify } from '../../../api/models';
 import { useAppDispatch } from '../../../app/hooks';
 import background from '../../../assets/img/login/login-background.svg';
 import Notify from '../../../helpers/notify';
@@ -31,11 +32,17 @@ function Register(): JSX.Element {
               <Title level={3}>Register</Title>
               <Form layout="vertical" onFinish={handleFinish}>
                 <Form.Item
-                  name="username"
-                  rules={[{ required: true }]}
-                  label={<Title level={5}>Username</Title>}
+                  name="email"
+                  rules={[
+                    {
+                      type: 'email',
+                      message: 'Email is invalid !',
+                    },
+                    { required: true },
+                  ]}
+                  label={<Title level={5}>Email</Title>}
                 >
-                  <Input placeholder="Username" />
+                  <Input placeholder="Email" />
                 </Form.Item>
                 <Form.Item
                   rules={[{ required: true }]}
@@ -63,6 +70,11 @@ function Register(): JSX.Element {
                     Create an account
                   </Button>
                 </Form.Item>
+                <Space className="d-flex justify-flex-end">
+                  <Link to={PageUrl.LOGIN}>
+                    <Title level={5} className=" text-normal text-blue-6">Already have an account.</Title>
+                  </Link>
+                </Space>
               </Form>
             </Card>
           </Col>

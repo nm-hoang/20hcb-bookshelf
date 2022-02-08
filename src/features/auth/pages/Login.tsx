@@ -36,11 +36,11 @@ function Login(): JSX.Element {
               <Title level={3}>Login</Title>
               <Form layout="vertical" onFinish={handleFinish}>
                 <Form.Item
-                  name="username"
+                  name="email"
                   rules={[{ required: true }]}
-                  label={<Title level={5}>Username</Title>}
+                  label={<Title level={5}>Email</Title>}
                 >
-                  <Input placeholder="Username" />
+                  <Input placeholder="Email" />
                 </Form.Item>
                 <Form.Item
                   rules={[{ required: true }]}

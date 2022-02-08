@@ -24,7 +24,7 @@ const authSlice = createSlice({
   initialState,
   reducers: {
     login(state, action: PayloadAction<User>) {
-      const user = state.list!.find(list => list.username === action.payload.username);
+      const user = state.list!.find(list => list.email === action.payload.email);
       if (user) {
         if (user.password === action.payload.password) {
           state.single = user;
@@ -34,13 +34,13 @@ const authSlice = createSlice({
           Notify.error('Password is incorrect !', StatusNotify.success);
         }
       } else {
-        Notify.error('Username is not exist !', StatusNotify.error);
+        Notify.error('Email is not exist !', StatusNotify.error);
       }
     },
     register(state, action: PayloadAction<User>) {
-      const isExist = state.list!.some((item) => item.username === action.payload.username);
+      const isExist = state.list!.some((item) => item.email === action.payload.email);
       if (isExist) {
-        Notify.error('Username is already exist !', StatusNotify.error);
+        Notify.error('Email is already exist !', StatusNotify.error);
       } else {
         Notify.success('Register successfully', StatusNotify.success);
         state.list = state.list!.concat(action.payload);
